@@ -1,3 +1,56 @@
 /**
  * Here you can overide the default style of theme.
  */
+
+h3#comments-title, h3#reply-title, .access .menu, .access div.menu ul, #cancel-comment-reply-link, .form-allowed-tags, #site-info, #site-title, #wp-calendar, .comment-meta, .comment-body tr th, .comment-body thead th, .entry-content label, .entry-content tr th, .entry-content thead th, .entry-meta, .entry-title, .entry-utility, #respond label, .navigation, .page-title, .pingback p, .reply, .widget-title, .wp-caption-text, input[type="submit"] {
+    font-family: Helvetica, sans-serif;
+}
+
+body, input, textarea, .page-title span, .pingback a.url {
+    font-family: Helvetica, sans-serif;
+}
+
+body {
+    background: #ffffff;
+}
+
+#main {
+    padding: 0px 0 10px 0;
+    background: #ffffff;
+}
+
+.sectionHeader {
+    padding: 10px;
+}
+.sectionHeader .sectionBox {
+    width: 225px;
+    float: left;
+    margin-right: 13px;
+    box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, 0.3);
+}
+
+.sectionHeader .sectionBox .sectionBoxInfo {
+    min-height: 228px;
+    border: 5px solid white;
+}
+
+.sectionHeader .sectionBox .sectionBoxInfo .sectionBoxInfoTitle {
+    font-size: 28px;
+    line-height: 28px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    background-color: rgba(0,0,0,0.5);
+    padding: 12px;
+    position: relative;
+    top: 144px;
+    min-height: 60px;
+    vertical-align: baseline;
+}
+
+#tips-verdes.sectionBoxInfo {background: url('../library/images/section_tips_verdes.jpg');}
+#mapa-de-reciclado.sectionBoxInfo {background: url('../library/images/section_mapa_de_reciclado.jpg');}
+#directorio-verde.sectionBoxInfo {background: url('../library/images/section_directorio_verde.jpg');}
+#agenda.sectionBoxInfo {background: url('../library/images/section_agenda.jpg');}
