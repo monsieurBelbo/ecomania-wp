@@ -1,0 +1,73 @@
+/**
+ * Color scheme: Blue
+ */
+a:link {
+	color:#0077ff;
+}
+a:visited {
+	color:#0077ff;
+}
+a:active,
+a:hover {
+	color: #0077ff;
+	text-decoration:underline;
+}
+#access a { 
+	border-bottom:5px solid #252e28; 
+	color:#252e28;
+}
+#access a:hover {
+	color:#0077ff;
+	background-color:none;
+	border-bottom-color:#0077ff;
+}
+#access ul ul a { background-color:#0077ff; text-shadow:#0059bf 0px 1px 1px; }
+#access ul ul a:hover { background-color:#2a8dff; }
+.sf-menu li.sfHover {
+	background-color:#0077ff;
+}
+.sf-menu li.sfHover a {
+	color:#fff !important;
+	text-shadow:#0059bf 0px 1px 1px !important;
+	border-bottom:5px solid #0077ff !important; 
+}
+.entry-meta a {
+	color: #cacaca;
+}
+.entry-meta a:hover {
+	color: #0077ff;
+}
+.entry-summary .continue_reading_link {
+	background-image:url(images/more.png);
+}
+.navigation a:active,
+.navigation a:hover {
+	color: #0077ff;
+}
+.wp-pagenavi a:hover { 
+	border: 1px solid #0077ff !important; 
+	background-color: #0077ff; 
+}
+.wp-pagenavi span.current { 
+	border: 1px solid #0077ff !important; 
+	background-color: #0077ff; 
+}
+.wp-pagenavi span.extend { 
+	border: 1px solid #0077ff; 
+	background-color: #0077ff; 
+}
+.comment-meta a:link,
+.comment-meta a:visited {
+	color: #0077ff;
+	text-decoration: underline;
+}
+.comment-meta a:active,
+.comment-meta a:hover {
+	color: #2a8dff;
+}
+#main .widget-content ul li a:hover {
+	background:url(images/list-bg-blue.png) no-repeat 0 3px; 
+}
+#footer-widget-area .widget-container ul li a:hover {
+	background:url(images/list-bg-blue.png) no-repeat 0 3px; 
+}

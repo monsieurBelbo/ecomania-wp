@@ -31,7 +31,7 @@ define('DB_HOST', 'localhost');
 define('DB_CHARSET', 'utf8');
 
 /** Cotejamiento de la base de datos. No lo modifiques si tienes dudas. */
-define('DB_COLLATE', 'utf8_general_ci');
+define('DB_COLLATE', '');
 
 /**#@+
  * Claves únicas de autentificación.
