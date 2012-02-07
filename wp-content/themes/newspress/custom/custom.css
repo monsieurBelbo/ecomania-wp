@@ -121,4 +121,71 @@ input.search-input {
 .widget-container, .widget-container.ads, .widget-container.banner-mag {
     border: none;
 }
+
+.widget-container.widget_twitter {
+}
+
+.widget-container.widget_twitter div {
+    padding:0;
+}
+
+.widget-container.widget_twitter ul li {
+    margin-bottom:5px;
+}
+
+.widget-container.widget_twitter ul li span.entry-content a,
+#twitter-2 .widget-content ul li a, #twitter-2 .widget-content ul li a:hover {
+    display: inline;
+    background: none;
+    padding-left: 0px;
+    text-transform: none;
+}
+
+.widget-container.widget_twitter .follow-button,
+.widget-container.widget_twitter .xavisys-link {
+    margin:0 10px 10px 25px;
+}
+
+.widget-container.widget_twitter .entry-content {
+    display: block;
+}
+
+.widget-container.widget_twitter .entry-meta {
+    font-size:80%;
+}
+
+.widget-container.widget_twitter span.intent-meta a,
+#main .widget-content ul li a.in-reply-to,
+#main .widget-content ul li a.favorite,
+#main .widget-content ul li a.retweet {
+    background: url('../library/images/everything-spritev2.png'); /** from Twitter ressources */
+    display: inline-block;
+    height: 16px;
+    text-indent: -9999px;
+    width: 16px;
+}
+.widget-container.widget_twitter .intent-meta a.in-reply-to {
+    background-position: 0 center;
+}
+.widget-container.widget_twitter .intent-meta a:hover.in-reply-to,
+#main .widget-content ul li a:hover.in-reply-to {
+    background-position: -16px center;
+}
+.widget-container.widget_twitter .intent-meta a.favorite,
+#main .widget-content ul li a.favorite {
+    background-position: -32px center;
+}
+.widget-container.widget_twitter .intent-meta a:hover.favorite,
+#main .widget-content ul li a:hover.favorite {
+    background-position: -48px center;
+}
+.widget-container.widget_twitter .intent-meta a.retweet,
+#main .widget-content ul li a.retweet {
+    background-position: -80px center;
+}
+.widget-container.widget_twitter .intent-meta a:hover.retweet,
+#main .widget-content ul li a:hover.retweet {
+    background-position: -96px center;
+}
+
 /*     End-Sidebar     ************************************************************************************************/
