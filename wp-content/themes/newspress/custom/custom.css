@@ -19,8 +19,8 @@ body {
     background: #ffffff;
 }
 
-#sidebar {
-    width: 300px;
+a:visited, a:link {
+    color: green;
 }
 
 /*     Header     *****************************************************************************************************/
