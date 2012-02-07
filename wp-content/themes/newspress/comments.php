@@ -67,7 +67,7 @@
 
 <?php if ( comments_open() ) : ?>
 <div id="respond">
-	<h3 id="reply-title"><?php comment_form_title( 'Leave a Response', 'Leave a Response to %s' ); ?></h3>
+	<h3 id="reply-title"><?php comment_form_title( 'Dejar un comentario', 'Dejar un comentario to %s' ); ?></h3>
 	<div class="cancel-comment-reply">
 		<small><?php cancel_comment_reply_link(); ?></small>
 	</div>
@@ -77,14 +77,14 @@
 		<?php else : ?>
 			<form action="<?php echo get_option('siteurl'); ?>/wp-comments-post.php" method="post" id="comment-form">
 			<?php if ( is_user_logged_in() ) : ?>
-			<p style="text-transform:uppercase; ">Logged in as <a href="<?php echo get_option('siteurl'); ?>/wp-admin/profile.php"><?php echo $user_identity; ?></a>. <a href="<?php echo wp_logout_url(get_permalink()); ?>" title="Log out of this account">Log out &raquo;</a></p>
+			<p style="text-transform:uppercase; ">Loggueado como <a href="<?php echo get_option('siteurl'); ?>/wp-admin/profile.php"><?php echo $user_identity; ?></a>. <a href="<?php echo wp_logout_url(get_permalink()); ?>" title="Log out of this account">Log out &raquo;</a></p>
 			<?php else : ?>
 			<p><input class="author" onFocus="this.style.backgroundColor='#f5f5f5'" onBlur="this.style.backgroundColor='#fff'" type="text" name="author" id="author" value="" size="22" tabindex="1" /></p>
 			<p><input class="email" onFocus="this.style.backgroundColor='#f5f5f5'" onBlur="this.style.backgroundColor='#fff'" type="text" name="email" id="email" value="" size="22" tabindex="2" /></p>
 			<p><input class="url" onFocus="this.style.backgroundColor='#f5f5f5'" onBlur="this.style.backgroundColor='#fff'" type="text" name="url" id="url" value="" size="22" tabindex="3" /></p>
 			<?php endif; ?>
 			<p><textarea onFocus="this.style.backgroundColor='#f5f5f5'" onBlur="this.style.backgroundColor='#fff'" name="comment" id="comment" tabindex="4"></textarea></p>
-			<input name="submit" type="submit" class="btn blue submit-btn" tabindex="5" value="Submit Comment" /><input type="hidden" name="comment_post_ID" value="<?php echo $id; ?>" />
+			<input name="submit" type="submit" class="btn blue submit-btn" tabindex="5" value="Enviar" /><input type="hidden" name="comment_post_ID" value="<?php echo $id; ?>" />
 			<?php comment_id_fields(); ?>
 			<?php do_action('comment_form', $post->ID); ?>
 			</form>

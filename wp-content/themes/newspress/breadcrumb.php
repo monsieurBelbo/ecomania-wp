@@ -1,7 +1,6 @@
 <?php
 	$category = get_the_category();
-	echo '<span>You are here: </span>';
-	echo '<a href="'.get_bloginfo('url').'">Home</a> &raquo; ';
+	echo '<a href="'.get_bloginfo('url').'">Inicio</a> &raquo; ';
 	if(is_single()) {
 		echo get_category_parents($category[0]->cat_ID, TRUE, ' &raquo; ');
 		echo get_the_title();
@@ -51,7 +50,7 @@
 		echo 'you just found mr.404';
 	}
 	elseif(is_search()) {
-		echo 'You Searched &quot;';
+		echo 'Buscaste &quot;';
 		the_search_query();
 		echo '&quot;';
 	}
