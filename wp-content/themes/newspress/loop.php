@@ -81,7 +81,7 @@
 			<div class="entry-utility">
 				<a href="<?php echo get_term_link( _x('gallery', 'gallery category slug', 'newspress'), 'category' ); ?>" title="<?php esc_attr_e( 'View posts in the Gallery category', 'newspress' ); ?>"><?php _e( 'More Galleries', 'newspress' ); ?></a>
 				<span class="meta-sep">|</span>
-				<span class="comments-link"><?php comments_popup_link( __( 'Leave a comment', 'newspress' ), __( '1 Comment', 'newspress' ), __( '% Comments', 'newspress' ) ); ?></span>
+				<span class="comments-link"><?php comments_popup_link( __( 'Dejar un comentario', 'newspress' ), __( '1 Comment', 'newspress' ), __( '% Comments', 'newspress' ) ); ?></span>
 				<?php edit_post_link( __( 'Edit', 'newspress' ), '<span class="meta-sep">|</span> <span class="edit-link">', '</span>' ); ?>
 			</div><!-- .entry-utility -->
 		</div><!-- #post-## -->
@@ -104,11 +104,11 @@
             
 	<?php if ( is_home() || is_archive() || is_search() ) : // Only display excerpts with thumbnail for homepage or frontpage. ?>
     		<div class="entry-summary">
-				<?php the_excerpt( __( 'Continue reading <span class="meta-nav">&rarr;</span>', 'newspress' ) ); ?>
+				<?php the_excerpt( __( 'Seguir leyendo <span class="meta-nav">&rarr;</span>', 'newspress' ) ); ?>
 			</div><!-- .entry-summary -->
 	<?php else : ?>
 			<div class="entry-content">
-				<?php the_content( __( 'Continue reading <span class="meta-nav">&rarr;</span>', 'newspress' ) ); ?>
+				<?php the_content( __( 'Seguir leyendo <span class="meta-nav">&rarr;</span>', 'newspress' ) ); ?>
 				<?php wp_link_pages( array( 'before' => '<div class="page-link">' . __( 'Pages:', 'newspress' ), 'after' => '</div>' ) ); ?>
 			</div><!-- .entry-content -->
 	<?php endif; ?>
@@ -135,11 +135,11 @@
             
 	<?php if ( is_home() || is_archive() || is_search() ) : // Only display excerpts with thumbnail for homepage or frontpage. ?>
     		<div class="entry-summary">
-				<?php the_excerpt( __( 'Continue reading <span class="meta-nav">&rarr;</span>', 'newspress' ) ); ?>
+				<?php the_excerpt( __( 'Seguir leyendo <span class="meta-nav">&rarr;</span>', 'newspress' ) ); ?>
 			</div><!-- .entry-summary -->
 	<?php else : ?>
 			<div class="entry-content">
-				<?php the_content( __( 'Continue reading <span class="meta-nav">&rarr;</span>', 'newspress' ) ); ?>
+				<?php the_content( __( 'Seguir leyendo <span class="meta-nav">&rarr;</span>', 'newspress' ) ); ?>
 				<?php wp_link_pages( array( 'before' => '<div class="page-link">' . __( 'Pages:', 'newspress' ), 'after' => '</div>' ) ); ?>
 			</div><!-- .entry-content -->
 	<?php endif; ?>

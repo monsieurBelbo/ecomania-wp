@@ -18,7 +18,7 @@ remove_filter( 'excerpt_more', 'newspress_auto_excerpt_more' );
 	<?php $image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'full' ); ?>
 		<img id="thumbnail-<?php echo $post->ID; ?>" src="<?php bloginfo("template_directory"); ?>/timthumb.php?src=<?php echo $image[0]; ?>&w=220&h=250&zc=1" border="0" />
 		<div class="panel-meta">
-			<h3><a href="<?php the_permalink(); ?>" title="Continue reading <?php the_title(); ?>"><?php the_title(); ?></a></h3>
+			<h3><a href="<?php the_permalink(); ?>" title="Seguir leyendo <?php the_title(); ?>"><?php the_title(); ?></a></h3>
 			<p><?php echo get_the_excerpt(); ?></p>
 		</div>
 	</div>

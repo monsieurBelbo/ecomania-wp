@@ -10,6 +10,18 @@
 		<div id="sidebar" class="widget-area" role="complementary">
 			<ul class="xoxo">
 
+
+                <li id="ecomania-subsciption" class="widget-container banner-mag">
+                    <img src="<?php bloginfo('template_directory');?>/library/images/banner-revista.png" border="0"/>
+                </li>
+
+                <li id="adds" class="widget-container ads">
+                    <img src="<?php bloginfo('template_directory');?>/library/images/add-placeholder.jpg" border="0" class="ad"/>
+                    <img src="<?php bloginfo('template_directory');?>/library/images/add-placeholder.jpg" border="0" class="ad" style="float: right"/>
+                    <img src="<?php bloginfo('template_directory');?>/library/images/add-placeholder.jpg" border="0" class="ad" style="margin-top: 20px"/>
+                    <img src="<?php bloginfo('template_directory');?>/library/images/add-placeholder.jpg" border="0" class="ad" style="float: right; margin-top: 20px"/>
+                </li>
+
 <?php
 	/* When we call the dynamic_sidebar() function, it'll spit out
 	 * the widgets for that widget area. If it instead returns false,

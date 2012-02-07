@@ -19,6 +19,10 @@ body {
     background: #ffffff;
 }
 
+#sidebar {
+    width: 300px;
+}
+
 /*     Header     *****************************************************************************************************/
 #access {
     background: url('../library/images/colors-ecomania.jpg') no-repeat;
@@ -111,3 +115,10 @@ input.search-input {
 #directorio-verde.sectionBoxInfo {background: url('../library/images/section_directorio_verde.jpg');}
 #agenda.sectionBoxInfo {background: url('../library/images/section_agenda.jpg');}
 /*     End-Cajas de secciones     *************************************************************************************/
+
+
+/*     Sidebar     ****************************************************************************************************/
+.widget-container, .widget-container.ads, .widget-container.banner-mag {
+    border: none;
+}
+/*     End-Sidebar     ************************************************************************************************/

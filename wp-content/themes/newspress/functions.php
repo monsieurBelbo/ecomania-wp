@@ -267,6 +267,10 @@ function newspress_add_rsslink($ulelement) {
 	return preg_replace('/class="sf-menu">/', 'class="sf-menu"><li class="rss_link"><a href="'.get_bloginfo('comments_rss2_url').'">Comments</a></li><li class="rss_link"><a href="'.get_bloginfo('rss2_url').'">Posts</a></li>', $ulelement, 1);
 }
 
+/**
+ * Add twitter and facebook links
+ */
+
 function newspress_add_sociallink($ulelement) {
     return preg_replace('/class="sf-menu">/', 'class="sf-menu"><li class="social_link twitter"><a href="https://twitter.com/#!/ecomaniatweets">Twitter</a></li><li class="social_link facebook"><a href="http://www.facebook.com/RevistaEcomania">Facebook</a></li>', $ulelement, 1);
 }
@@ -289,7 +293,7 @@ add_filter( 'excerpt_length', 'newspress_excerpt_length' );
  * @return string "Continue Reading" link
  */
 function newspress_continue_reading_link() {
-	return '<a class="continue_reading_link" href="'. get_permalink() . '">' . __( 'Continue reading <span class="meta-nav">&raquo;</span>', 'newspress' ) . '</a>';
+	return '<a class="continue_reading_link" href="'. get_permalink() . '">' . __( 'Seguir leyendo <span class="meta-nav">&raquo;</span>', 'newspress' ) . '</a>';
 }
 
 /**
@@ -463,7 +467,7 @@ function newspress_post_meta($is_2col = false) {
 		if(!$is_2col) :
 			echo '<div class="category-link">'.get_the_category_list( ', ' ).'</div>'; 
 		endif;
-	?> <div class="comments-link"><?php comments_popup_link( __( 'Leave a comment', 'newspress' ), __( '1 Comment', 'newspress' ), __( '% Comments', 'newspress' ) ); ?></div> <?php
+	?> <div class="comments-link"><?php comments_popup_link( __( 'Dejar un comentario', 'newspress' ), __( '1 Comment', 'newspress' ), __( '% Comments', 'newspress' ) ); ?></div> <?php
 	else:
 		printf( __('<div class="published-link"><span class="%1$s">Published</span> %2$s', 'newspress'),
 			'meta-prep meta-prep-entry-date',

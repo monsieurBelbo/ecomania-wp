@@ -85,7 +85,9 @@
         </div>
         <div id="masthead" class="clearfix">
             <div id="branding" role="banner">
-                <img src="<?php bloginfo('template_directory');?>/library/images/logo-ecomania.png" border="0" />
+                <img src="<?php bloginfo('template_directory');?>/library/images/logo-ecomania.png"
+                     border="0"
+                     style="position: relative; top: -10px;"/>
             </div><!-- #branding -->
 
             <?php if(get_option("newspress_enable_banneradcode") == "enable") : ?>
