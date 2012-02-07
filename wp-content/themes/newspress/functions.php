@@ -266,8 +266,12 @@ add_filter('wp_page_menu','newspress_proper_containerclass');
 function newspress_add_rsslink($ulelement) {
 	return preg_replace('/class="sf-menu">/', 'class="sf-menu"><li class="rss_link"><a href="'.get_bloginfo('comments_rss2_url').'">Comments</a></li><li class="rss_link"><a href="'.get_bloginfo('rss2_url').'">Posts</a></li>', $ulelement, 1);
 }
+
+function newspress_add_sociallink($ulelement) {
+    return preg_replace('/class="sf-menu">/', 'class="sf-menu"><li class="social_link twitter"><a href="https://twitter.com/#!/ecomaniatweets">Twitter</a></li><li class="social_link facebook"><a href="http://www.facebook.com/RevistaEcomania">Facebook</a></li>', $ulelement, 1);
+}
 add_filter('wp_nav_menu','newspress_add_rsslink');
-add_filter('wp_page_menu','newspress_add_rsslink');
+add_filter('wp_page_menu','newspress_add_sociallink');
 
 /**
  * Sets the post excerpt length to 40 characters.

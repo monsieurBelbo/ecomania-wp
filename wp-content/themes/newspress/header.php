@@ -73,13 +73,19 @@
 <div id="wrapper" class="hfeed">
     <div id="header">
         <div style="float: right;">
-            <?php get_search_form(); ?>
+            <div>
+                <img src="<?php bloginfo('template_directory');?>/library/images/venn.jpg"
+                     border="0"
+                     style="float: left;" />
+                <?php get_search_form(); ?>
+            </div>
+            <div class="subsections">
+                Mapa del sitio | Contáctenos | Eventos | Inicio
+            </div>
         </div>
         <div id="masthead" class="clearfix">
             <div id="branding" role="banner">
-                <?php if(get_option("newspress_customlogo") == "") : ?>
-                <div id="site-title"><a href="<?php echo home_url( '/' ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></div>
-                <?php else : echo '<img src="' . get_option("newspress_customlogo") . '" border="0" />'; endif; ?>
+                <img src="<?php bloginfo('template_directory');?>/library/images/logo-ecomania.png" border="0" />
             </div><!-- #branding -->
 
             <?php if(get_option("newspress_enable_banneradcode") == "enable") : ?>

@@ -19,6 +19,62 @@ body {
     background: #ffffff;
 }
 
+/*     Header     *****************************************************************************************************/
+#access {
+    background: url('../library/images/colors-ecomania.jpg') no-repeat;
+}
+
+#access a {
+    border-bottom: none;
+    padding: 14px 15px;
+}
+
+#access li.social_link {
+    float:right;
+}
+
+#access li.social_link a {
+    padding-left:30px;
+    padding-right:20px;
+}
+
+#access li.social_link.twitter a {
+    background:url('../library/images/twitter_icon.jpg') no-repeat 10px 50%;
+}
+
+#access li.social_link.facebook a {
+    background:url('../library/images/facebook_icon.jpg') no-repeat 10px 50%;
+}
+
+#masthead {
+    border-bottom: solid 5px #252E28;
+}
+/*     End-Header     *************************************************************************************************/
+
+/*     Search     *****************************************************************************************************/
+input.search-input {
+    border: none;
+    width: 200px;
+    height: 25px;
+    background: rgb(235,228,221) url('../library/images/search-input.jpg') no-repeat;
+    background-position: 0px 2px;
+    margin-left: 10px;
+    position: relative;
+    top: 5px;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+}
+
+#header .subsections {
+    margin-top: 45px;
+    text-transform: uppercase;
+    font-size: 10px;
+    color: #999;
+}
+/*     End-Search     *************************************************************************************************/
+
+/*     Cajas de secciones     *****************************************************************************************/
 .sectionHeader {
     padding: 10px;
 }
@@ -54,3 +110,4 @@ body {
 #mapa-de-reciclado.sectionBoxInfo {background: url('../library/images/section_mapa_de_reciclado.jpg');}
 #directorio-verde.sectionBoxInfo {background: url('../library/images/section_directorio_verde.jpg');}
 #agenda.sectionBoxInfo {background: url('../library/images/section_agenda.jpg');}
+/*     End-Cajas de secciones     *************************************************************************************/
