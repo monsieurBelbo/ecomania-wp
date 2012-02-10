@@ -225,7 +225,7 @@ function ep_admin_sidebar_wp25() {
 	if ( ep_this_page_included() ) 
 		echo 'checked="checked"';
 	echo ' />';
-	echo '			'.__( 'Include this page in lists of pages', EP_TD ).'</label>';
+	echo '			'.__( 'Mostrar página en el menu', EP_TD ).'</label>';
 	echo '		<input type="hidden" name="ep_ctrl_present" value="1" /></p>';
 	if ( $nearest_excluded_ancestor !== false ) {
 		echo '<p class="ep_exclude_alert"><em>';
@@ -347,7 +347,7 @@ function ep_init() {
 function ep_admin_init() {
 	// Add panels into the editing sidebar(s)
 	global $wp_version;
-	add_meta_box('ep_admin_meta_box', __( 'Exclude Pages', EP_TD ), 'ep_admin_sidebar_wp25', 'page', 'side', 'low');
+	add_meta_box('ep_admin_meta_box', __( 'Excluir del menú', EP_TD ), 'ep_admin_sidebar_wp25', 'page', 'side', 'low');
 
 	// Set the exclusion when the post is saved
 	add_action('save_post', 'ep_update_exclusions');
