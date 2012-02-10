@@ -27,6 +27,10 @@ body {
     margin-bottom: 100px;
 }
 
+.hentry, .post {
+    border: 1px solid gainsboro;
+}
+
 a:visited, a:link {
     color: green;
 }
