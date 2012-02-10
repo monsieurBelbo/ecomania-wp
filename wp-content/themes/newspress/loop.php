@@ -130,47 +130,47 @@ $do_split = false;
         <?php
             $do_split = true;
         else :
-            if($alt){ $add_class = 'splitted alpha'; $alt = false; }else{ $add_class = 'splitted omega'; $alt = true; } ?>
+            if ($alt){$alt = false;} else {$alt = true;} ?>
 
         <div id="post-<?php the_ID(); ?>" <?php post_class($add_class); ?>>
             <?php $has_catched_image = (catch_that_image() != "/images/default.jpg"); ?>
             <?php if(has_post_thumbnail( $post->ID )) : ?>
-                <?php $image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'full' ); ?>
-                <?php if ($image[0] != ""): ?>
-                    <div class="entry-thumbnail">
-                        <img src="<?php bloginfo("template_directory"); ?>/timthumb.php?src=<?php echo $image[0]; ?>&w=256&h=172&zc=1" border="0" alt="<?php the_title(); ?>" />
-                    </div>
+            <?php $image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'full' ); ?>
+            <?php if ($image[0] != ""): ?>
+                <div class="entry-thumbnail">
+                    <img src="<?php bloginfo("template_directory"); ?>/timthumb.php?src=<?php echo $image[0]; ?>&w=576&h=172&zc=1" border="0" alt="<?php the_title(); ?>" />
+                </div>
                 <?php elseif ($has_catched_image): ?>
-                    <div class="entry-thumbnail">
-                        <img src="<?php bloginfo("template_directory"); ?>/timthumb.php?src=<?php echo catch_that_image(); ?>&w=256&h=172&zc=1" border="0" alt="<?php the_title(); ?>" />
-                    </div>
+                <div class="entry-thumbnail">
+                    <img src="<?php bloginfo("template_directory"); ?>/timthumb.php?src=<?php echo catch_that_image(); ?>&w=576&h=172&zc=1" border="0" alt="<?php the_title(); ?>" />
+                </div>
                 <?php endif ?>
             <?php elseif($has_catched_image): ?>
-                <div class="entry-thumbnail">
-                    <img src="<?php bloginfo("template_directory"); ?>/timthumb.php?src=<?php echo catch_that_image(); ?>&w=256&h=172&zc=1" border="0" alt="<?php the_title(); ?>" />
-                </div>
+            <div class="entry-thumbnail">
+                <img src="<?php bloginfo("template_directory"); ?>/timthumb.php?src=<?php echo catch_that_image(); ?>&w=576&h=172&zc=1" border="0" alt="<?php the_title(); ?>" />
+            </div>
             <?php endif; ?>
 
-    <h2 class="entry-title"><a href="<?php the_permalink(); ?>" title="<?php printf( esc_attr__( 'Permalink to %s', 'newspress' ), the_title_attribute( 'echo=0' ) ); ?>" rel="bookmark"><?php the_title(); ?></a></h2><!-- .entry-title -->
+            <h2 class="entry-title"><a href="<?php the_permalink(); ?>" title="<?php printf( esc_attr__( 'Permalink to %s', 'newspress' ), the_title_attribute( 'echo=0' ) ); ?>" rel="bookmark"><?php the_title(); ?></a></h2><!-- .entry-title -->
 
-    <div class="entry-meta clearfix"><?php newspress_post_meta(true); ?></div>
+            <div class="entry-meta clearfix"><?php newspress_post_meta(true); ?></div>
 
-    <?php if ( is_home() || is_archive() || is_search() ) : // Only display excerpts with thumbnail for homepage or frontpage. ?>
-    <div class="entry-summary">
-        <?php the_excerpt( __( 'Seguir leyendo <span class="meta-nav">&rarr;</span>', 'newspress' ) ); ?>
-    </div><!-- .entry-summary -->
-    <?php else : ?>
-    <div class="entry-content">
-        <?php the_content( __( 'Seguir leyendo <span class="meta-nav">&rarr;</span>', 'newspress' ) ); ?>
-        <?php wp_link_pages( array( 'before' => '<div class="page-link">' . __( 'Pages:', 'newspress' ), 'after' => '</div>' ) ); ?>
-    </div><!-- .entry-content -->
-    <?php endif; ?>
+            <?php if ( is_home() || is_archive() || is_search() ) : // Only display excerpts with thumbnail for homepage or frontpage. ?>
+            <div class="entry-summary">
+                <?php the_excerpt( __( 'Seguir leyendo <span class="meta-nav">&rarr;</span>', 'newspress' ) ); ?>
+            </div><!-- .entry-summary -->
+            <?php else : ?>
+            <div class="entry-content">
+                <?php the_content( __( 'Seguir leyendo <span class="meta-nav">&rarr;</span>', 'newspress' ) ); ?>
+                <?php wp_link_pages( array( 'before' => '<div class="page-link">' . __( 'Pages:', 'newspress' ), 'after' => '</div>' ) ); ?>
+            </div><!-- .entry-content -->
+            <?php endif; ?>
 
-    </div><!-- #post-## -->
+        </div><!-- #post-## -->
 
-    <?php endif; ?>
+        <?php endif; ?>
 
-<?php endif; // This was the if statement that broke the loop into three parts based on categories. ?>
+    <?php endif; // This was the if statement that broke the loop into three parts based on categories. ?>
 
 <?php endwhile; // End the loop. Whew. ?>
 

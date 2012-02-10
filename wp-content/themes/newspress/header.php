@@ -80,7 +80,10 @@
                 <?php get_search_form(); ?>
             </div>
             <div class="subsections">
-                Mapa del sitio | Contáctenos | Eventos | Inicio
+                <a href="/?page_id=789">Mapa del sitio</a> |
+                <a href="/?page_id=733">Contáctenos</a> |
+                <a href="/?page_id=791">Eventos</a> |
+                <a href="/">Inicio</a>
             </div>
         </div>
         <div id="masthead" class="clearfix">
@@ -121,31 +124,33 @@
 
     <div id="main" class="clearfix">
         <div class="clearfix sectionHeader">
+
             <div class="sectionBox">
                 <div class="sectionBoxInfo" id="tips-verdes">
                     <div class="sectionBoxInfoTitle">
-                        Tips verdes
+                        <a href="/?page_id=779">Tips verdes</a>
                     </div>
                 </div>
             </div>
+
             <div class="sectionBox">
                 <div class="sectionBoxInfo" id="mapa-de-reciclado">
                     <div class="sectionBoxInfoTitle">
-                        Mapa de reciclado
+                        <a href="/?page_id=781">Mapa de reciclado</a>
                     </div>
                 </div>
             </div>
             <div class="sectionBox">
                 <div class="sectionBoxInfo" id="directorio-verde">
                     <div class="sectionBoxInfoTitle">
-                        Directorio verde
+                        <a href="/?page_id=783">Directorio verde</a>
                     </div>
                 </div>
             </div>
             <div class="sectionBox"  style="float: right; margin-right: 0px">
                 <div class="sectionBoxInfo" id="agenda">
                     <div class="sectionBoxInfoTitle">
-                        Agenda
+                        <a href="/?page_id=785">Agenda</a>
                     </div>
                 </div>
             </div>
