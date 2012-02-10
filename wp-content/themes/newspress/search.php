@@ -24,13 +24,12 @@ get_header(); ?>
 <?php else : ?>
 			<?php /* Display breadcrumb trail */ ?>
 			<div id="breadcrumb">
-				You just found our 404 error page.
+				Oops!
 			</div><!-- #breadcrumb -->
 				<div id="post-0" class="post no-results not-found">
-	            	<h2 class="entry-title"><?php _e( 'Nothing Found', 'newspress' ); ?></h2><!-- .entry-title -->
+	            	<h2 class="entry-title"><?php _e( 'Nada encontrado', 'newspress' ); ?></h2><!-- .entry-title -->
 					<div class="entry-content">
-						<p><?php _e( 'Sorry, but nothing matched your search criteria. Please try again with some different keywords.', 'newspress' ); ?></p>
-						<?php get_search_form(); ?>
+						<p><?php _e( 'Parece que no econtramos ninguna entrada para lo que estás buescando. ¿Probaste buscando con otras palabras?', 'newspress' ); ?></p>
 					</div><!-- .entry-content -->
 				</div><!-- #post-0 -->
 <?php endif; ?>
