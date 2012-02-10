@@ -178,7 +178,7 @@ $do_split = false;
 <?php if (  $wp_query->max_num_pages > 1 ) :
     if(function_exists(wp_pagenavi)) : wp_pagenavi(); else : ?>
     <div id="nav-below" class="navigation">
-        <div class="nav-previous"><?php next_posts_link( __( '<span class="meta-nav">&larr;</span> Previous Entries', 'newspress' ) ); ?></div>
-        <div class="nav-next"><?php previous_posts_link( __( 'Next Entries <span class="meta-nav">&rarr;</span>', 'newspress' ) ); ?></div>
+        <div class="nav-previous"><?php next_posts_link( __( '<span class="meta-nav">&larr;</span> Entradas anteriores', 'newspress' ) ); ?></div>
+        <div class="nav-next"><?php previous_posts_link( __( 'Próximas entradas <span class="meta-nav">&rarr;</span>', 'newspress' ) ); ?></div>
     </div><!-- #nav-below -->
     <?php endif; endif; ?>
