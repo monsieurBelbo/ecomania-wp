@@ -22,27 +22,27 @@
 		echo get_the_title();
 	}
 	elseif(is_category()) {
-		echo 'From the category archives &quot;';
+		echo 'Categoría &quot;';
 		single_cat_title();
 		echo '&quot;';
 	}
 	elseif(is_tag()) {
-		echo 'From the tag archives &quot;';
+		echo 'Tag &quot;';
 		single_tag_title();
 		echo '&quot;';
 	}
 	elseif(is_day()) {
-		echo 'From the daily archives &quot;';
+		echo 'Archivo del día &quot;';
 		the_time('F jS, Y');
 		echo '&quot;';
 	}
 	elseif (is_month()) {
-		echo 'From the daily archives &quot;';
+		echo 'Archivo del mes &quot;';
 		the_time('F, Y');
 		echo '&quot;';
 	}
 	elseif (is_year()) {
-		echo 'From the daily archives &quot;';
+		echo 'Archivo del año archives &quot;';
 		the_time('Y');
 		echo '&quot;';
 	}
