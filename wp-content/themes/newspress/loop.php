@@ -130,7 +130,7 @@ $do_split = false;
         <?php
             $do_split = true;
         else :
-            if ($alt){$alt = false;} else {$alt = true;} ?>
+            if($alt){ $add_class = 'splitted alpha'; $alt = false; }else{ $add_class = 'splitted omega'; $alt = true; } ?>
 
         <div id="post-<?php the_ID(); ?>" <?php post_class($add_class); ?>>
             <?php $has_catched_image = (catch_that_image() != "/images/default.jpg"); ?>
@@ -138,16 +138,16 @@ $do_split = false;
             <?php $image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'full' ); ?>
             <?php if ($image[0] != ""): ?>
                 <div class="entry-thumbnail">
-                    <img src="<?php bloginfo("template_directory"); ?>/timthumb.php?src=<?php echo $image[0]; ?>&w=576&h=172&zc=1" border="0" alt="<?php the_title(); ?>" />
+                    <img src="<?php bloginfo("template_directory"); ?>/timthumb.php?src=<?php echo $image[0]; ?>&w=256&h=172&zc=1" border="0" alt="<?php the_title(); ?>" />
                 </div>
                 <?php elseif ($has_catched_image): ?>
                 <div class="entry-thumbnail">
-                    <img src="<?php bloginfo("template_directory"); ?>/timthumb.php?src=<?php echo catch_that_image(); ?>&w=576&h=172&zc=1" border="0" alt="<?php the_title(); ?>" />
+                    <img src="<?php bloginfo("template_directory"); ?>/timthumb.php?src=<?php echo catch_that_image(); ?>&w=256&h=172&zc=1" border="0" alt="<?php the_title(); ?>" />
                 </div>
                 <?php endif ?>
             <?php elseif($has_catched_image): ?>
             <div class="entry-thumbnail">
-                <img src="<?php bloginfo("template_directory"); ?>/timthumb.php?src=<?php echo catch_that_image(); ?>&w=576&h=172&zc=1" border="0" alt="<?php the_title(); ?>" />
+                <img src="<?php bloginfo("template_directory"); ?>/timthumb.php?src=<?php echo catch_that_image(); ?>&w=256&h=172&zc=1" border="0" alt="<?php the_title(); ?>" />
             </div>
             <?php endif; ?>
 

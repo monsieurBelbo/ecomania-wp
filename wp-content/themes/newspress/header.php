@@ -73,18 +73,7 @@
 <div id="wrapper" class="hfeed">
     <div id="header">
         <div style="float: right;">
-            <div>
-                <img src="<?php bloginfo('template_directory');?>/library/images/venn.jpg"
-                     border="0"
-                     style="float: left;" />
-                <?php get_search_form(); ?>
-            </div>
-            <div class="subsections">
-                <a href="/?page_id=789">Mapa del sitio</a> |
-                <a href="/?page_id=733">Contáctenos</a> |
-                <a href="/?page_id=791">Eventos</a> |
-                <a href="/">Inicio</a>
-            </div>
+            <?php get_search_form(); ?>
         </div>
         <div id="masthead" class="clearfix">
             <div id="branding" role="banner">
