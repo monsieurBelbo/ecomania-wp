@@ -132,7 +132,7 @@
             <div class="sectionBox">
                 <div class="sectionBoxInfo" id="directorio-verde">
                     <div class="sectionBoxInfoTitle">
-                        <a href="/?page_id=783">Directorio verde</a>
+                        <a href="http://directorio-verde.com/" target="_blank">Directorio verde</a>
                     </div>
                 </div>
             </div>
