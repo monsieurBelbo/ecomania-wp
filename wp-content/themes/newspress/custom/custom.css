@@ -39,6 +39,18 @@ a:visited, a:link {
     color: green;
 }
 
+.center, img.center, #content img.center {
+    clear: both;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#friends-page img.center {
+    max-width: 400px;
+    border: none;
+}
+
 /*     Footer     *****************************************************************************************************/
 #footer {
     box-shadow: 0px -3px 8px 1px rgba(0, 0, 0, 0.3);
@@ -215,11 +227,17 @@ input.search-input {
 }
 
 .widget-container.widget_twitter ul li span.entry-content a,
-#twitter-2 .widget-content ul li a, #twitter-2 .widget-content ul li a:hover {
+#twitter-2 .widget-content ul li a, #twitter-2 .widget-content ul li a:hover,
+.widget-container.widget_archive ul li a, #archives-2 .widget-content ul li a,
+#archives-2 .widget-content ul li a:hover {
     display: inline;
     background: none;
     padding-left: 0px;
     text-transform: none;
+}
+
+#archives-2 .widget-content ul li {
+    padding: 2px 0;
 }
 
 .widget-container.widget_twitter .follow-button,
@@ -268,5 +286,7 @@ input.search-input {
 #main .widget-content ul li a:hover.retweet {
     background-position: -96px center;
 }
+
+
 
 /*     End-Sidebar     ************************************************************************************************/

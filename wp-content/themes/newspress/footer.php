@@ -2,75 +2,83 @@
 
     <div id="footer-quienes-somos" class="footer-column">
         <h2>¿Quiénes somos?</h2>
-        <p>Somos una asociación civil sin fines de lucro surgida en 2008 cuya misión es promover un cambio de la comunidad en su relación con el medio ambiente a partir de la difusión de los valores consumo responsable y responsabilidad conjunta. Apuntamos a:</p>
-        <ul>
-            <li>Lo que apuntamos 1</li>
-            <li>Lo que apuntamos 2</li>
-        </ul>
+        <p>Somos una Asociación Civil Sin Fines de Lucro surgida en 2008 cuya misión es promover un cambio de la comunidad en su relación con el medioambiente a partir de la difusión de los valores: desarrollo sostenible, consumo responsable y responsabilidad conjunta.</p>
         <div class="color-line"></div>
     </div>
 
     <div id="footer-colaborators" class="footer-column">
-        <h2>Colaboradores</h2>
-        <ul>
-            <li>Colaborador 1</li>
-            <li>Colaborador 2</li>
-            <li>Colaborador 3</li>
-            <li>Colaborador 4</li>
-            <li>Colaborador 5</li>
-        </ul>
+        <h2>¿Querés ser voluntario?</h2>
+        <p>Te invitamos a sumarte a nuestra ONG escribiéndonos a <a href="mailto:voluntarios@ecomania.org.ar">voluntarios@ecomania.org.ar</a></p>
         <div class="color-line"></div>
     </div>
 
     <div id="footer-contact" class="footer-column">
         <h2>Contacto</h2>
-        <ul>
-            <li>Contact 1</li>
-            <li>Contact 2</li>
-            <li>Contact 3</li>
-        </ul>
+        <p>
+            Intendente Becco 1556<br/>
+            Beccar, (B1643BZF)<br/>
+            Provincia de Buenos Aires<br/>
+            +5411 6009 0851<br/>
+            <a href="mailto:info@ecomania.org.ar">info@ecomania.org.ar</a><br/>
+        </p>
         <div class="color-line"></div>
     </div>
 
     <div id="friends" class="clearfix" style="padding: 20px">
         <h2>Amigos</h2>
+        <p>Creemos en la RESPONSABILIDAD CONJUNTA. Por eso construimos Ecomanía junto a los siguientes amigos:</p>
 
-        <a class="friend-link" href="http://www.greenfilmfest.com.ar/">
-            <img src="<?php bloginfo('template_directory');?>/library/images/amigos/gff.jpg"/>
+        <a class="friend-link" href="http://greendrinksba.org/" target="_blank">
+            <img src="<?php bloginfo('template_directory');?>/library/images/amigos/greendrinksba_100.png"/>
         </a>
 
-        <a class="friend-link" href="http://lavidaenbici.com/">
-            <img src="<?php bloginfo('template_directory');?>/library/images/amigos/la-vida-en-bici.jpg"/>
+        <a class="friend-link" href="http://sustentator.com/" target="_blank">
+            <img src="<?php bloginfo('template_directory');?>/library/images/amigos/sustentator_100.png"/>
         </a>
 
-        <a class="friend-link" href="http://www.grecaweb.com/">
-            <img src="<?php bloginfo('template_directory');?>/library/images/amigos/greca.jpg"/>
+        <a class="friend-link" href="http://directorio-verde.com/" target="_blank">
+            <img src="<?php bloginfo('template_directory');?>/library/images/amigos/directorio-verde_100.png"/>
         </a>
 
-        <a class="friend-link" href="http://sustentator.com/">
-            <img src="<?php bloginfo('template_directory');?>/library/images/amigos/sustentator.jpg"/>
+        <a class="friend-link" href="http://www.grecaweb.com/" target="_blank">
+            <img src="<?php bloginfo('template_directory');?>/library/images/amigos/greca_100.png"/>
         </a>
 
-        <a class="friend-link" href="http://www.revistaplot.com/">
-            <img src="<?php bloginfo('template_directory');?>/library/images/amigos/plot.jpg"/>
+        <a class="friend-link" href="http://www.britishcouncil.org/es/argentina.htm" target="_blank">
+            <img src="<?php bloginfo('template_directory');?>/library/images/amigos/britishcouncil_100.png"/>
         </a>
 
-        <a class="friend-link" href="http://www.britishcouncil.org/es/argentina.htm">
-            <img src="<?php bloginfo('template_directory');?>/library/images/amigos/british-council.jpg"/>
+        <a class="friend-link" href="http://www.sabelatierra.com/" target="_blank">
+            <img src="<?php bloginfo('template_directory');?>/library/images/amigos/sabelatierra_100.png"/>
         </a>
 
-        <a class="friend-link" href="http://www.dqbstudio.com/">
-            <img src="<?php bloginfo('template_directory');?>/library/images/amigos/dqb.jpg"/>
+        <a class="friend-link" href="http://www.revistaplot.com/" target="_blank">
+            <img src="<?php bloginfo('template_directory');?>/library/images/amigos/plot_100.png"/>
         </a>
 
-        <a class="friend-link" href="http://www.ehma.com.ar/">
-            <img src="<?php bloginfo('template_directory');?>/library/images/amigos/ehma.jpg"/>
+        <a class="friend-link" href="http://www.dqbstudio.com/" target="_blank">
+            <img src="<?php bloginfo('template_directory');?>/library/images/amigos/dqbstudio_100.png"/>
         </a>
 
-        <a class="friend-link" href="http://www.sabelatierra.com/">
-            <img src="<?php bloginfo('template_directory');?>/library/images/amigos/sabe-la-tierra.jpg"/>
+        <a class="friend-link" href="http://www.greenfilmfest.com.ar/" target="_blank">
+            <img src="<?php bloginfo('template_directory');?>/library/images/amigos/greenfilmfest_100.png"/>
         </a>
 
+        <a class="friend-link" href="http://www.dondereciclo.org.ar/" target="_blank">
+            <img src="<?php bloginfo('template_directory');?>/library/images/amigos/dondereciclo_100.png"/>
+        </a>
+
+        <a class="friend-link" href="http://lavidaenbici.com/" target="_blank">
+            <img src="<?php bloginfo('template_directory');?>/library/images/amigos/lavidaenbici_100.png"/>
+        </a>
+
+        <a class="friend-link" href="http://www.inicia.org.ar/" target="_blank">
+            <img src="<?php bloginfo('template_directory');?>/library/images/amigos/inicia_100.png"/>
+        </a>
+
+        <a class="friend-link" href="http://www.vidasilvestre.org.ar/" target="_blank">
+            <img src="<?php bloginfo('template_directory');?>/library/images/amigos/vidasilvestre_100.png"/>
+        </a>
 
     </div>
 </div>

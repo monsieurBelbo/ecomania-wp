@@ -559,11 +559,29 @@ class wpTwitterWidget extends XavisysPlugin {
 		$widgetContent = $args['before_widget'] . '<div>';
 
 		if ( empty( $args['title'] ) )
-			$args['title'] = "Twitter: {$args['username']}";
+			$args['title'] = "Tweet and Shout!";
 
 		$args['title'] = apply_filters( 'twitter-widget-title', $args['title'], $args );
 		$args['title'] = "<span class='twitterwidget twitterwidget-title'>{$args['title']}</span>";
 		$widgetContent .= $args['before_title'] . $args['title'] . $args['after_title'];
+
+        if ( 'true' == $args['showfollow'] ) {
+            $widgetContent .= '<div class="follow-button">';
+            $linkText = "@{$args['username']}";
+            $linkAttrs = array(
+                'href'	=> "http://twitter.com/{$args['username']}",
+                'class'	=> 'twitter-follow-button',
+                'title'	=> sprintf( __( 'Seguinos %s', $this->_slug ), "@{$args['username']}" ),
+            );
+            $lang = $this->_getTwitterLang();
+            if ( !empty( $lang ) )
+                $linkAttrs['data-lang'] = $lang;
+
+            $widgetContent .= "Seguinos en";
+            $widgetContent .= $this->_buildLink( $linkText, $linkAttrs );
+            $widgetContent .= '</div>';
+        }
+
 		$widgetContent .= '<ul>';
 		if ( ! is_array( $tweets ) || count( $tweets ) == 0 ) {
 			$widgetContent .= '<li class="wpTwitterWidgetEmpty">' . __( 'No Tweets Available', $this->_slug ) . '</li>';
@@ -632,21 +650,6 @@ class wpTwitterWidget extends XavisysPlugin {
 		}
 
 		$widgetContent .= '</ul>';
-		if ( 'true' == $args['showfollow'] ) {
-			$widgetContent .= '<div class="follow-button">';
-			$linkText = "@{$args['username']}";
-			$linkAttrs = array(
-				'href'	=> "http://twitter.com/{$args['username']}",
-				'class'	=> 'twitter-follow-button',
-				'title'	=> sprintf( __( 'Follow %s', $this->_slug ), "@{$args['username']}" ),
-			);
-			$lang = $this->_getTwitterLang();
-			if ( !empty( $lang ) )
-				$linkAttrs['data-lang'] = $lang;
-
-			$widgetContent .= $this->_buildLink( $linkText, $linkAttrs );
-			$widgetContent .= '</div>';
-		}
 
 		if ( 'true' == $args['showXavisysLink'] ) {
 			$widgetContent .= '<div class="xavisys-link"><span class="xavisys-link-text">';
