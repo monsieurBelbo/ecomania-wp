@@ -289,6 +289,10 @@ class GCE_Parser {
 
 		//Only add previous / next functionality if AJAX grid is enabled
 		if ( $ajaxified ) {
+            // Hack: always show prev and next
+            $nav_prev = true;
+            $nav_next = true;
+
 			//If there are events to display in a previous month, add previous month link
 			$prev_key = ( $nav_prev ) ? '&laquo;' : '&nbsp;';
 			$prev = ( $nav_prev ) ? date( 'm-Y', mktime( 0, 0, 0, $month - 1, 1, $year ) ) : null;

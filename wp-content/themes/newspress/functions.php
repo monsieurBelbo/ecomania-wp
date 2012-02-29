@@ -196,7 +196,7 @@ function newspress_head_scripts() {
 	$scriptdir_start .= get_bloginfo('template_directory');
 	$scriptdir_start .= '/library/scripts/';
 	$scriptdir_end = '"></script>';
-	$scripts .= $scriptdir_start . 'jquery.min.js' . $scriptdir_end . "\n";
+//	$scripts .= $scriptdir_start . 'jquery-1.7.1.min.js' . $scriptdir_end . "\n";
 	$scripts .= $scriptdir_start . 'common.js' . $scriptdir_end . "\n";
 	$scripts .= $scriptdir_start . 'hoverIntent.js' . $scriptdir_end . "\n";
 	$scripts .= $scriptdir_start . 'superfish.js' . $scriptdir_end . "\n";

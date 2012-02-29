@@ -3,6 +3,7 @@
 .gce-page-grid .gce-calendar .gce-caption{ /* Caption at top of calendar */
 	color:#333333;
 	text-align:center;
+    margin-bottom: 10px;
 }
 
 .gce-page-grid .gce-calendar{ /* Main calendar table */
@@ -49,6 +50,7 @@
 	cursor:pointer;
 	display:inline-block;
 	width:3%;
+    font-size: 20px;
 }
 
 .gce-page-grid .gce-calendar .gce-month-title{ /* Month title */

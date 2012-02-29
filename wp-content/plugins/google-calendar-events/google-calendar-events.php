@@ -674,6 +674,7 @@ function gce_print_grid( $feed_ids, $title_text, $max_events, $ajaxified = false
 		if ( $ajaxified )
 			$markup .= '<script type="text/javascript">jQuery(document).ready(function($){gce_ajaxify("gce-page-grid-' . $feed_ids . '", "' . $feed_ids . '", "' . absint( $max_events ) . '", "' . $title_text . '", "page");});</script>';
 
+
 		$markup .= $grid->get_grid( $year, $month, $ajaxified ) . '</div>';
 
 		//If there was at least one error, return the grid markup with an error message (for admins only)
