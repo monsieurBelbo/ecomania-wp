@@ -237,6 +237,14 @@ input.search-input {
 }
 
 #archives-2 .widget-content ul li {
+   background: url("../library/images/folder_stroke_12x12.png") no-repeat;
+    padding: 2px 8px 1px 8px;
+}
+#archives-2 .widget-content ul li a, #archives-2 .widget-content ul li a:hover {
+    padding-left: 12px;
+}
+
+#archives-2 .widget-content ul li {
     padding: 2px 0;
 }
 
