@@ -91,12 +91,22 @@ a:visited, a:link {
 
 #footer #friends .friend-link {
     float: left;
-    margin-right: 10px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 #footer #friends .friend-link img {
-    height: 45px;
     border: none;
+}
+
+#footer #friends .row1, #footer #friends .row2 {
+    height: 64px;
+}
+
+#footer #friends .row2 {
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
 }
 /*     End-Footer     *************************************************************************************************/
 

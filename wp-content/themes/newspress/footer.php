@@ -28,57 +28,63 @@
         <h2>Amigos</h2>
         <p>Creemos en la RESPONSABILIDAD CONJUNTA. Por eso construimos Ecomanía junto a los siguientes amigos:</p>
 
-        <a class="friend-link" href="http://greendrinksba.org/" target="_blank">
-            <img src="<?php bloginfo('template_directory');?>/library/images/amigos/greendrinksba_100.png"/>
-        </a>
+        <div class="row1">
 
-        <a class="friend-link" href="http://sustentator.com/" target="_blank">
-            <img src="<?php bloginfo('template_directory');?>/library/images/amigos/sustentator_100.png"/>
-        </a>
 
-        <a class="friend-link" href="http://directorio-verde.com/" target="_blank">
-            <img src="<?php bloginfo('template_directory');?>/library/images/amigos/directorio-verde_100.png"/>
-        </a>
 
-        <a class="friend-link" href="http://www.grecaweb.com/" target="_blank">
-            <img src="<?php bloginfo('template_directory');?>/library/images/amigos/greca_100.png"/>
-        </a>
+            <a class="friend-link" href="http://greendrinksba.org/" target="_blank">
+                <img src="<?php bloginfo('template_directory');?>/library/images/amigos/greendrinksba.png"/>
+            </a>
 
-        <a class="friend-link" href="http://www.britishcouncil.org/es/argentina.htm" target="_blank">
-            <img src="<?php bloginfo('template_directory');?>/library/images/amigos/britishcouncil_100.png"/>
-        </a>
+            <a class="friend-link" href="http://sustentator.com/" target="_blank">
+                <img src="<?php bloginfo('template_directory');?>/library/images/amigos/sustentator.png"/>
+            </a>
 
-        <a class="friend-link" href="http://www.sabelatierra.com/" target="_blank">
-            <img src="<?php bloginfo('template_directory');?>/library/images/amigos/sabelatierra_100.png"/>
-        </a>
+            <a class="friend-link" href="http://directorio-verde.com/" target="_blank">
+                <img src="<?php bloginfo('template_directory');?>/library/images/amigos/directorio-verde.png"/>
+            </a>
 
-        <a class="friend-link" href="http://www.revistaplot.com/" target="_blank">
-            <img src="<?php bloginfo('template_directory');?>/library/images/amigos/plot_100.png"/>
-        </a>
+            <a class="friend-link" href="http://www.grecaweb.com/" target="_blank">
+                <img src="<?php bloginfo('template_directory');?>/library/images/amigos/greca.png"/>
+            </a>
 
-        <a class="friend-link" href="http://www.dqbstudio.com/" target="_blank">
-            <img src="<?php bloginfo('template_directory');?>/library/images/amigos/dqbstudio_100.png"/>
-        </a>
+            <a class="friend-link" href="http://www.britishcouncil.org/es/argentina.htm" target="_blank">
+                <img src="<?php bloginfo('template_directory');?>/library/images/amigos/britishcouncil.png"/>
+            </a>
 
-        <a class="friend-link" href="http://www.greenfilmfest.com.ar/" target="_blank">
-            <img src="<?php bloginfo('template_directory');?>/library/images/amigos/greenfilmfest_100.png"/>
-        </a>
+            <a class="friend-link" href="http://www.sabelatierra.com/" target="_blank">
+                <img src="<?php bloginfo('template_directory');?>/library/images/amigos/sabelatierra.png"/>
+            </a>
 
-        <a class="friend-link" href="http://www.dondereciclo.org.ar/" target="_blank">
-            <img src="<?php bloginfo('template_directory');?>/library/images/amigos/dondereciclo_100.png"/>
-        </a>
+            <a class="friend-link" href="http://www.revistaplot.com/" target="_blank">
+                <img src="<?php bloginfo('template_directory');?>/library/images/amigos/plot.png"/>
+            </a>
 
-        <a class="friend-link" href="http://lavidaenbici.com/" target="_blank">
-            <img src="<?php bloginfo('template_directory');?>/library/images/amigos/lavidaenbici_100.png"/>
-        </a>
+            <a class="friend-link" href="http://www.dqbstudio.com/" target="_blank">
+                <img src="<?php bloginfo('template_directory');?>/library/images/amigos/dqbstudio.png"/>
+            </a>
 
-        <a class="friend-link" href="http://www.inicia.org.ar/" target="_blank">
-            <img src="<?php bloginfo('template_directory');?>/library/images/amigos/inicia_100.png"/>
-        </a>
+            <a class="friend-link" href="http://www.greenfilmfest.com.ar/" target="_blank">
+                <img src="<?php bloginfo('template_directory');?>/library/images/amigos/greenfilmfest.png"/>
+            </a>
 
-        <a class="friend-link" href="http://www.vidasilvestre.org.ar/" target="_blank">
-            <img src="<?php bloginfo('template_directory');?>/library/images/amigos/vidasilvestre_100.png"/>
-        </a>
+            <a class="friend-link" href="http://www.dondereciclo.org.ar/" target="_blank">
+                <img src="<?php bloginfo('template_directory');?>/library/images/amigos/dondereciclo.png"/>
+            </a>
+        </div>
 
+        <div class="row2">
+            <a class="friend-link" href="http://lavidaenbici.com/" target="_blank">
+                <img src="<?php bloginfo('template_directory');?>/library/images/amigos/lavidaenbici.png"/>
+            </a>
+
+            <a class="friend-link" href="http://www.inicia.org.ar/" target="_blank">
+                <img src="<?php bloginfo('template_directory');?>/library/images/amigos/inicia.png"/>
+            </a>
+
+            <a class="friend-link" href="http://www.vidasilvestre.org.ar/" target="_blank">
+                <img src="<?php bloginfo('template_directory');?>/library/images/amigos/vidasilvestre.png"/>
+            </a>
+        </div>
     </div>
 </div>
