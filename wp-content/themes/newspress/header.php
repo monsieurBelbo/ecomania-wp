@@ -77,7 +77,7 @@
         </div>
         <div id="masthead" class="clearfix">
             <div id="branding" role="banner">
-                <a href="/">
+                <a href="<?php echo get_site_url()?>">
                     <img src="<?php bloginfo('template_directory');?>/library/images/logo-ecomania.png"
                          border="0"
                          style="position: relative; top: -10px;"/>
@@ -117,7 +117,7 @@
             <div class="sectionBox">
                 <div class="sectionBoxInfo" id="tips-verdes">
                     <div class="sectionBoxInfoTitle">
-                        <a href="/?cat=136">Tips verdes</a>
+                        <a href="<?php echo get_site_url()?>/category/tips-verdes/">Tips verdes</a>
                     </div>
                 </div>
             </div>
@@ -125,7 +125,7 @@
             <div class="sectionBox">
                 <div class="sectionBoxInfo" id="mapa-de-reciclado">
                     <div class="sectionBoxInfoTitle">
-                        <a href="/?page_id=781">Mapa de reciclado</a>
+                        <a href="<?php echo get_site_url()?>/mapa-de-reciclado/">Mapa de reciclado</a>
                     </div>
                 </div>
             </div>
@@ -139,7 +139,7 @@
             <div class="sectionBox"  style="float: right; margin-right: 0px">
                 <div class="sectionBoxInfo" id="agenda">
                     <div class="sectionBoxInfoTitle">
-                        <a href="/?page_id=785">Agenda</a>
+                        <a href="<?php echo get_site_url()?>/agenda/">Agenda</a>
                     </div>
                 </div>
             </div>
