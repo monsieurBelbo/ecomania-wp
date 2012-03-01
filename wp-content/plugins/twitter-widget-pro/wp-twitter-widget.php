@@ -559,7 +559,7 @@ class wpTwitterWidget extends XavisysPlugin {
 		$widgetContent = $args['before_widget'] . '<div>';
 
 		if ( empty( $args['title'] ) )
-			$args['title'] = "Tweet and Shout!";
+			$args['title'] = "Tweet & Shout!";
 
 		$args['title'] = apply_filters( 'twitter-widget-title', $args['title'], $args );
 		$args['title'] = "<span class='twitterwidget twitterwidget-title'>{$args['title']}</span>";

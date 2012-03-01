@@ -31,7 +31,7 @@
 
 <?php if ( have_comments() ) : ?>
 			<h3 id="comments-title"><?php
-			printf( _n( 'Un comentario para "%2$s"', '%1$s Comentarios para "%2$s"', get_comments_number(), 'newspress' ),
+			printf( _n( 'Un comentario para %2$s', '%1$s Comentarios para %2$s', get_comments_number(), 'newspress' ),
 			number_format_i18n( get_comments_number() ), get_the_title() );
 			?></h3>
 
@@ -79,9 +79,18 @@
 			<?php if ( is_user_logged_in() ) : ?>
 			<p style="text-transform:uppercase; ">Loggueado como <a href="<?php echo get_option('siteurl'); ?>/wp-admin/profile.php"><?php echo $user_identity; ?></a>. <a href="<?php echo wp_logout_url(get_permalink()); ?>" title="Log out of this account">Log out &raquo;</a></p>
 			<?php else : ?>
-			<p><input class="author" onFocus="this.style.backgroundColor='#f5f5f5'" onBlur="this.style.backgroundColor='#fff'" type="text" name="author" id="author" value="" size="22" tabindex="1" /></p>
-			<p><input class="email" onFocus="this.style.backgroundColor='#f5f5f5'" onBlur="this.style.backgroundColor='#fff'" type="text" name="email" id="email" value="" size="22" tabindex="2" /></p>
-			<p><input class="url" onFocus="this.style.backgroundColor='#f5f5f5'" onBlur="this.style.backgroundColor='#fff'" type="text" name="url" id="url" value="" size="22" tabindex="3" /></p>
+			<p>
+                <label for="author">Nombre</label>
+                <input class="author" onFocus="this.style.backgroundColor='#f5f5f5'" onBlur="this.style.backgroundColor='#fff'" type="text" name="author" id="author" value="" size="22" tabindex="1" />
+            </p>
+			<p>
+                <label for="email">Email</label>
+                <input class="email" onFocus="this.style.backgroundColor='#f5f5f5'" onBlur="this.style.backgroundColor='#fff'" type="text" name="email" id="email" value="" size="22" tabindex="2" />
+            </p>
+			<p>
+                <label for="url">Página web</label>
+                <input class="url" onFocus="this.style.backgroundColor='#f5f5f5'" onBlur="this.style.backgroundColor='#fff'" type="text" name="url" id="url" value="" size="22" tabindex="3" />
+            </p>
 			<?php endif; ?>
 			<p><textarea onFocus="this.style.backgroundColor='#f5f5f5'" onBlur="this.style.backgroundColor='#fff'" name="comment" id="comment" tabindex="4"></textarea></p>
 			<input name="submit" type="submit" class="btn blue submit-btn" tabindex="5" value="Enviar" /><input type="hidden" name="comment_post_ID" value="<?php echo $id; ?>" />
