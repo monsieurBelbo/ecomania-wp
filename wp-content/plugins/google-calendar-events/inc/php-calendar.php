@@ -49,7 +49,7 @@ function gce_generate_calendar( $year, $month, $days = array(), $day_name_length
 	if ( $day_name_length ) { #if the day names should be shown ($day_name_length > 0)
 		#if day_name_length is >3, the full name of the day will be printed
 		foreach ( $day_names as $d ) {
-			$calendar .= '<th><abbr title="' . esc_attr( $d['full'] ) . '">' . esc_html( $d['initial'] ) . '</abbr></th>';
+			$calendar .= '<th class="cal-header"><abbr title="' . esc_attr( $d['full'] ) . '">' . esc_html( $d['initial'] ) . '</abbr></th>';
 		}
 
 		$calendar .= "</tr>\n<tr>";
