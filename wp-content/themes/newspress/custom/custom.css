@@ -38,7 +38,12 @@ body {
 }
 
 a:visited, a:link {
-    color: green;
+    color: #49A9A1;
+}
+
+a.no-decoration:visited, a.no-decoration:link {
+    color: #777;
+    text-decoration: none;
 }
 
 .center, img.center, #content img.center {

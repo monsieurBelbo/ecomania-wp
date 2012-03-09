@@ -1,7 +1,7 @@
 <div id="footer" class="clearfix">
 
     <div id="footer-quienes-somos" class="footer-column">
-        <h2>¿Quiénes somos?</h2>
+        <h2><a href="<?php echo get_site_url()?>/acerca-de/" class="no-decoration">¿Quiénes somos?</a></h2>
         <p>Somos una Asociación Civil Sin Fines de Lucro surgida en 2008 cuya misión es promover un cambio de la comunidad en su relación con el medioambiente a partir de la difusión de los valores: desarrollo sostenible, consumo responsable y responsabilidad conjunta.</p>
         <div class="color-line"></div>
     </div>

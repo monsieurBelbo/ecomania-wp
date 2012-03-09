@@ -125,7 +125,7 @@
             <div class="sectionBox">
                 <div class="sectionBoxInfo" id="mapa-de-reciclado">
                     <div class="sectionBoxInfoTitle">
-                        <a href="<?php echo get_site_url()?>/mapa-de-reciclado/">Mapa de reciclado</a>
+                        <a href="http://www.dondereciclo.org.ar/" target="_blank">Mapa de reciclado</a>
                     </div>
                 </div>
             </div>
