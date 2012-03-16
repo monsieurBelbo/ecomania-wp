@@ -352,6 +352,19 @@ input.search-input {
     font-weight: bold;
 }
 
+.twtr-widget h3, .twtr-widget h4 {
+    position: relative;
+    top: -30px;
+}
+
+.twtr-hd {
+    height: 35px;
+}
+
+.twtr-ft img {
+    display: none;
+}
+
 #main .widget-content ul li {
     margin: 0;
     padding: 0px 8px 0px 8px;
