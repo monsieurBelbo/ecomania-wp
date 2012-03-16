@@ -148,6 +148,10 @@ a.no-decoration:visited, a.no-decoration:link {
     background:url('../library/images/facebook_icon.jpg') no-repeat 10px 50%;
 }
 
+#access li.social_link.newsletter a {
+    background:url('../library/images/mail_16x12.png') no-repeat 10px 50%;
+}
+
 #masthead {
     border-bottom: solid 5px #252E28;
 }
