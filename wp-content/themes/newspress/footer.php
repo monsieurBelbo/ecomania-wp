@@ -85,6 +85,15 @@
             <a class="friend-link" href="http://www.vidasilvestre.org.ar/" target="_blank">
                 <img src="<?php bloginfo('template_directory');?>/library/images/amigos/vidasilvestre.png"/>
             </a>
+
+            <a class="friend-link" href="http://monoblock.tv/" target="_blank">
+                <img src="<?php bloginfo('template_directory');?>/library/images/amigos/monoblock.png"/>
+            </a>
+
+            <a class="friend-link" href="http://www.tuverde.com/" target="_blank">
+                <img src="<?php bloginfo('template_directory');?>/library/images/amigos/tuverde.png"/>
+            </a>
+
         </div>
     </div>
 </div>
