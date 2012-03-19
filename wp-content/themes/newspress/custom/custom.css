@@ -15,7 +15,7 @@ h3#comments-title, h3#reply-title, .access .menu, .access div.menu ul, #cancel-c
 }
 
 body {
-    /*background: #ffffff;*/
+    background: #F6F0E0;
 }
 
 #wrapper {
@@ -38,7 +38,7 @@ body {
 }
 
 a:visited, a:link {
-    color: #49A9A1;
+    color: #01BBBA;
 }
 
 a.no-decoration:visited, a.no-decoration:link {
@@ -76,15 +76,17 @@ a.no-decoration:visited, a.no-decoration:link {
 }
 
 #footer #footer-quienes-somos.footer-column .color-line {
-    border-bottom: solid rgb(225,172,2) 5px;
+    border-bottom: solid #FDB934 5px;
 }
 
 #footer #footer-colaborators.footer-column .color-line {
-    border-bottom: solid rgb(65,152,153) 5px;
+    border-bottom: solid #01BBBA 5px;
+    margin-top: 89px;
 }
 
 #footer #footer-contact.footer-column .color-line {
-    border-bottom: solid rgb(202,34,38) 5px;
+    border-bottom: solid #EE1C25 5px;
+    margin-top: 35px;
 }
 
 #footer h2 {
@@ -329,21 +331,21 @@ input.search-input {
 }
 
 #twitter-2 h3.widget-title {
-    background: url('../library/images/twitter_icon_white_64.png') #00CCEF;
+    background: url('../library/images/twitter_icon_white_64.png') #01BBBA;
     background-repeat: no-repeat;
     background-size: 32px;
     background-position: 10px;
 }
 
 #tag_cloud-2 h3.widget-title {
-    background: url("../library/images/tag_fill_32x32.png")#ED1D2E;
+    background: url("../library/images/tag_fill_32x32.png") #EE1C25;
     background-repeat: no-repeat;
     background-size: 24px;
     background-position: 17px;
 }
 
 #archives-2 h3.widget-title {
-    background: url("../library/images/folder_fill_32x32.png") #FCB651;
+    background: url("../library/images/folder_fill_32x32.png") #FDB934;
     background-repeat: no-repeat;
     background-size: 24px;
     background-position: 17px;
@@ -393,3 +395,30 @@ input.search-input {
     margin-top: 20px;
 }
 /*     End-Revista Section     ****************************************************************************************/
+
+/*     Friends Page     ***********************************************************************************************/
+#friends-page table, #friends-page table td {
+    border: none;
+}
+
+#friends-page table td {
+    padding: 0 0 10px 0;
+}
+
+#friends-page td.friend-info{
+    vertical-align: middle;
+    padding-left: 29px;
+
+}
+
+#friends-page td.friend-logo, #friends-page td.friend-logo img {
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    border: none;
+}
+
+#friends-page td.friend-logo {
+    width: 200px;
+}
+/*     End-Friends Page     *******************************************************************************************/
