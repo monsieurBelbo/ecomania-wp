@@ -86,8 +86,7 @@
             <div id="branding" role="banner">
                 <a href="<?php echo get_site_url()?>">
                     <img src="<?php bloginfo('template_directory');?>/library/images/logo-ecomania.png"
-                         border="0"
-                         style="position: relative; top: -10px;"/>
+                         border="0" style="position: relative;"/>
                 </a>
             </div><!-- #branding -->
 

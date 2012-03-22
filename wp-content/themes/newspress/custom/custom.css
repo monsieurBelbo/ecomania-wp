@@ -22,6 +22,7 @@ body {
     background-color: white;
     padding: 25px;
     border: solid 1px #E0E4CC;
+    margin-top: 20px
 }
 
 #main {
@@ -35,6 +36,10 @@ body {
 
 .hentry, .post {
     border: 1px solid gainsboro;
+}
+
+#branding {
+    min-height: 90px;
 }
 
 a:visited, a:link {
@@ -134,6 +139,10 @@ a.no-decoration:visited, a.no-decoration:link {
     margin-left: 5px;
 }
 
+#header .header-links .header-link.hover {
+    cursor: pointer;
+}
+
 #header .header-links .header-link.link-greca {
     background: url('../library/images/header/greca.png');
     width: 45px;
@@ -190,7 +199,7 @@ a.no-decoration:visited, a.no-decoration:link {
 
 #access li.social_link a {
     padding-left:30px;
-    padding-right:20px;
+    padding-right:0px;
 }
 
 #access li.social_link.twitter a {
