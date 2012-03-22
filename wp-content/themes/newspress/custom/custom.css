@@ -124,6 +124,57 @@ a.no-decoration:visited, a.no-decoration:link {
     padding: 0 0 0 0;
 }
 
+#header .header-links {
+    display: block;
+}
+
+#header .header-links .header-link {
+    float: right;
+    height: 41px;
+    margin-left: 5px;
+}
+
+#header .header-links .header-link.link-greca {
+    background: url('../library/images/header/greca.png');
+    width: 45px;
+}
+
+#header .header-links .header-link.link-greca.hover {
+    background-position: 44px 0px;
+}
+
+#header .header-links .header-link.link-greenbondi {
+    background: url('../library/images/header/greenbondi.png');
+    width: 69px;
+}
+
+#header .header-links .header-link.link-greenbondi.hover {
+    background-position: 68px -1px;
+}
+
+#header .header-links .header-link.link-ecomania {
+    background: url('../library/images/header/ecomania.png');
+    width: 48px;
+}
+
+#header .header-links .header-link.link-ecomania.hover {
+    background-position: 47px 0px;
+}
+
+#header .header-links .header-link.link-trashlove {
+    background: url('../library/images/header/trashlove.png');
+    width: 50px;
+}
+
+#header .header-links .header-link.link-trashlove.hover {
+    background-position: 53px -1px;
+}
+
+#header .header-links img {
+    float: right;
+    margin-right: 3px;
+}
+
 #access {
     background: url('../library/images/colors-ecomania.jpg') no-repeat;
 }
@@ -162,13 +213,13 @@ a.no-decoration:visited, a.no-decoration:link {
 /*     Search     *****************************************************************************************************/
 input.search-input {
     border: none;
-    width: 200px;
+    width: 250px;
     height: 25px;
-    background: rgb(235,228,221) url('../library/images/search-input.jpg') no-repeat;
+    position: relative;
+    top: 10px;
+    background: rgb(235,228,221);
     background-position: 0px 2px;
     margin-left: 10px;
-    position: relative;
-    top: 15px;
     box-shadow: none;
     -moz-box-shadow: none;
     -webkit-box-shadow: none;

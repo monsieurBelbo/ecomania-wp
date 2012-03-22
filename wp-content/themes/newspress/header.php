@@ -34,6 +34,7 @@
     <!--[if IE]>
     <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'template_directory' ); ?>/style-ie.css" />
     <![endif]-->
+    <script type="text/javascript" src="<?php bloginfo( 'template_directory' ); ?>/library/scripts/jquery-1.7.1.min.js"></script>
     <?php
     /* Adding custom css file for customization if enabled
       * in theme option.
@@ -73,6 +74,12 @@
 <div id="wrapper" class="hfeed">
     <div id="header">
         <div style="float: right;">
+            <div class="header-links">
+                <div class="header-link link-trashlove" href="http://trashlove.com/"></div>
+                <div class="header-link link-ecomania" href="http://ecomania.org.ar/"></div>
+                <div class="header-link link-greenbondi" href="http://www.kidart.com.ar/greenbondi/"></div>
+                <div class="header-link link-greca" href="http://grecaweb.com/"></div>
+            </div>
             <?php get_search_form(); ?>
         </div>
         <div id="masthead" class="clearfix">
@@ -144,3 +151,18 @@
                 </div>
             </div>
         </div>
+
+        <script type="text/javascript" charset="utf-8">
+            $(function() {
+                $(".header-link").hover(function() {
+                    $(this).addClass("hover");
+                }, function() {
+                    $(this).removeClass("hover");
+                });
+
+                $(".header-link").click(function() {
+                    var href = $(this).attr("href");
+                    window.open(href);
+                })
+            });
+            </script>
