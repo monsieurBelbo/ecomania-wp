@@ -145,6 +145,7 @@ function rdrakeCategoryShortcode_function($incomingfromhandler) {
                 /// strip tag filters added for 1.2 release
                 $rdcsc_content = apply_filters( 'the_content', $rdcsc_content );
                 $rdcsc_content = str_replace( ']]>', ']]>', $rdcsc_content );
+                $rdcsc_content = substr($rdcsc_content, strpos($rdcsc_content, "<div><object"));
 
                 // added in 1.3 release
                 $rdscf_output.='<div class=csc_post csc_full>';
