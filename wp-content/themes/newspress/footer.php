@@ -7,7 +7,7 @@
     </div>
 
     <div id="footer-colaborators" class="footer-column">
-        <h2>¿Querés ser voluntario?</h2>
+        <h2><a href="<?php echo get_site_url()?>/staff/" class="no-decoration">¿Querés ser voluntario?</a></h2>
         <p>Te invitamos a sumarte a nuestra ONG escribiéndonos a <a href="mailto:voluntarios@ecomania.org.ar">voluntarios@ecomania.org.ar</a></p>
         <div class="color-line"></div>
     </div>
