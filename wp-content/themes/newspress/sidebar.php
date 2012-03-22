@@ -12,7 +12,7 @@
 
 
         <li id="ecomania-subsciption" class="widget-container banner-mag">
-            <img src="<?php bloginfo('template_directory');?>/library/images/banner-revista.jpg" border="0"/>
+            <img src="<?php bloginfo('template_directory');?>/library/images/revista/numero4.jpg" border="0"/>
         </li>
 
         <li id="adds" class="widget-container ads">
