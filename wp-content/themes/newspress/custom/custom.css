@@ -101,25 +101,60 @@ a.no-decoration:visited, a.no-decoration:link {
     padding-bottom: 10px;
 }
 
-#footer #friends .friend-link {
-    float: left;
-    margin-right: auto;
-    margin-left: auto;
+#friends .row1, #friends.row2 {
+    display: block;
 }
 
-#footer #friends .friend-link img {
-    border: none;
+#friends .friend-link {
+    float: left;
+    height: 65px;
+    margin-left: 5px;
+    background-repeat: no-repeat;
 }
+
+#friends .friend-link.greendrinksba { width: 104px; background: url("../library/images/amigos/greendrinksba.png"); }
+#friends .friend-link.sustentator { width: 107px; background: url("../library/images/amigos/sustentator.png"); }
+#friends .friend-link.directorio-verde { width: 91px; background: url("../library/images/amigos/directorio-verde.png"); }
+#friends .friend-link.grecaweb { width: 104px; background: url("../library/images/amigos/greca.png"); }
+#friends .friend-link.britishcouncil { width: 105px; background: url("../library/images/amigos/britishcouncil.png"); }
+#friends .friend-link.sabelatierra { width: 83px; background: url("../library/images/amigos/sabelatierra.png"); }
+#friends .friend-link.revistaplot { width: 52px; background: url("../library/images/amigos/plot.png"); }
+#friends .friend-link.dqbstudio { width: 63px; background: url("../library/images/amigos/dqbstudio.png"); }
+#friends .friend-link.greenfilmfest { width: 67px; background: url("../library/images/amigos/greenfilmfest.png"); }
+#friends .friend-link.dondereciclo { width: 87px; background: url("../library/images/amigos/dondereciclo.png"); }
+#friends .friend-link.lavidaenbici { width: 146px; background: url("../library/images/amigos/lavidaenbici.png"); }
+#friends .friend-link.inicia { width: 78px; background: url("../library/images/amigos/inicia.png"); }
+#friends .friend-link.vidasilvestre { width: 64px; background: url("../library/images/amigos/vidasilvestre.png"); }
+#friends .friend-link.monoblock { width: 84px; background: url("../library/images/amigos/monoblock.png"); }
+#friends .friend-link.tuverde { width: 188px; background: url("../library/images/amigos/tuverde.png"); }
+
+#friends .friend-link.greendrinksba.hover,
+#friends .friend-link.sustentator.hover,
+#friends .friend-link.directorio-verde.hover,
+#friends .friend-link.grecaweb.hover,
+#friends .friend-link.britishcouncil.hover,
+#friends .friend-link.sabelatierra.hover,
+#friends .friend-link.revistaplot.hover,
+#friends .friend-link.dqbstudio.hover,
+#friends .friend-link.greenfilmfest.hover,
+#friends .friend-link.dondereciclo.hover,
+#friends .friend-link.lavidaenbici.hover,
+#friends .friend-link.inicia.hover,
+#friends .friend-link.vidasilvestre.hover,
+#friends .friend-link.monoblock.hover,
+#friends .friend-link.tuverde.hover
+{ cursor:pointer; background-position: 0px 65px; }
 
 #footer #friends .row1, #footer #friends .row2 {
     height: 64px;
-}
-
-#footer #friends .row2 {
-    width: 560px;
     margin-left: auto;
     margin-right: auto;
 }
+
+#footer #friends .row2 {
+    width: 590px;
+}
+
 /*     End-Footer     *************************************************************************************************/
 
 
