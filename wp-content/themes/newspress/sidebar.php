@@ -16,7 +16,7 @@
         </li>
 
         <li id="adds" class="widget-container ads">
-            <img src="<?php bloginfo('template_directory');?>/library/images/add-placeholder.jpg" border="0" class="ad"/>
+            <img src="<?php bloginfo('template_directory');?>/library/images/ads/viapostal.gif" border="0" class="ad"/>
             <img src="<?php bloginfo('template_directory');?>/library/images/add-placeholder.jpg" border="0" class="ad" style="float: right"/>
             <img src="<?php bloginfo('template_directory');?>/library/images/add-placeholder.jpg" border="0" class="ad" style="margin-top: 20px"/>
             <img src="<?php bloginfo('template_directory');?>/library/images/add-placeholder.jpg" border="0" class="ad" style="float: right; margin-top: 20px"/>
