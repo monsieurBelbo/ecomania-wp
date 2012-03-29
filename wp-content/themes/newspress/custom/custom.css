@@ -525,6 +525,23 @@ input.search-input {
 /*     End-Friends Page     *******************************************************************************************/
 
 /*     Nivo Slider     ************************************************************************************************/
+.nivoSlider {
+    position:relative;
+    width:300px; /* Change this to your images width */
+    height:250px; /* Change this to your images height */
+    background:url("../library/images/loader.gif") no-repeat 50% 50%;
+}
+.nivoSlider img {
+    position:absolute;
+    top:0px;
+    left:0px;
+    display:none;
+}
+.nivoSlider a {
+    border:0;
+    display:block;
+}
+
 .nivo-controlNav {
     position: absolute;
     left: 50%;
