@@ -24,7 +24,7 @@
         <div class="color-line"></div>
     </div>
 
-    <div id="friends" class="clearfix" style="padding: 20px">
+    <div id="friends" class="clearfix">
         <h2>Amigos</h2>
         <p>Creemos en la RESPONSABILIDAD CONJUNTA. Por eso construimos Ecomanía junto a los siguientes amigos:</p>
 

@@ -45,6 +45,9 @@
         echo '<link rel="stylesheet" type="text/css" media="all" href="'.get_bloginfo("template_directory").'/custom/custom.css" />';
     }
     ?>
+    <!--[if IE]>
+    <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'template_directory' ); ?>/custom/custom-ie.css" />
+    <![endif]-->
     <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
     <?php
     /* We add some JavaScript to pages with the comment form

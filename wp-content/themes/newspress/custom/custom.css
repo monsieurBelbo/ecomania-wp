@@ -101,6 +101,10 @@ a.no-decoration:visited, a.no-decoration:link {
     padding-bottom: 10px;
 }
 
+#friends {
+    padding: 20px;
+}
+
 #friends .row1, #friends.row2 {
     display: block;
 }
@@ -166,6 +170,7 @@ a.no-decoration:visited, a.no-decoration:link {
 
 #header .header-links {
     display: block;
+    height: 45px;
 }
 
 #header .header-links .header-link {

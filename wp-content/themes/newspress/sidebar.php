@@ -20,10 +20,10 @@
         </li>
 
         <li id="adds" class="widget-container ads">
-            <a href="http://www.viapostal.com.ar/" target="_blank"><img src="<?php bloginfo('template_directory');?>/library/images/ads/viapostal.gif" border="0" class="ad"/></a>
-            <img src="<?php bloginfo('template_directory');?>/library/images/add-placeholder.jpg" border="0" class="ad" style="float: right"/>
-            <img src="<?php bloginfo('template_directory');?>/library/images/add-placeholder.jpg" border="0" class="ad" style="margin-top: 20px"/>
-            <img src="<?php bloginfo('template_directory');?>/library/images/add-placeholder.jpg" border="0" class="ad" style="float: right; margin-top: 20px"/>
+            <a href="http://www.viapostal.com.ar/" target="_blank"><img src="<?php bloginfo('template_directory');?>/library/images/ads/viapostal.gif" border="0" class="ad adA"/></a>
+            <img src="<?php bloginfo('template_directory');?>/library/images/add-placeholder.jpg" border="0" class="ad adB" style="float: right"/>
+            <img src="<?php bloginfo('template_directory');?>/library/images/add-placeholder.jpg" border="0" class="ad adC" style="margin-top: 20px"/>
+            <img src="<?php bloginfo('template_directory');?>/library/images/add-placeholder.jpg" border="0" class="ad adD" style="float: right; margin-top: 20px"/>
         </li>
 
         <li id="twitter-2" class="widget-container">
