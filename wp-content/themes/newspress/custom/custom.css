@@ -333,6 +333,7 @@ input.search-input {
 
 .widget-container, .widget-container.ads, .widget-container.banner-mag {
     border: none;
+    margin-bottom: 40px;
 }
 
 .widget-container.widget_twitter {
@@ -517,3 +518,28 @@ input.search-input {
     width: 145px;
 }
 /*     End-Friends Page     *******************************************************************************************/
+
+/*     Nivo Slider     ************************************************************************************************/
+.nivo-controlNav {
+    position: absolute;
+    left: 50%;
+    bottom: -18px;
+    margin-left: -20px;
+}
+
+.nivo-controlNav a {
+    display: block;
+    width: 10px;
+    height: 10px;
+    background: url("../library/images/revista/bullets.png") no-repeat;
+    text-indent: -9999px;
+    border: 0;
+    margin-right: 7px;
+    float: left;
+}
+
+.nivo-controlNav a.active {
+    background-position: 0 -10px;
+}
+
+/*     End-Nivo Slider     ********************************************************************************************/

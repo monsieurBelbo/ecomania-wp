@@ -15,12 +15,12 @@
             <div id="slider" class="nivoSlider">
                 <img src="<?php bloginfo('template_directory');?>/library/images/revista/numero4.jpg" border="0"/>
                 <img src="<?php bloginfo('template_directory');?>/library/images/revista/banner-encontrar.jpg" border="0"/>
-                <img src="<?php bloginfo('template_directory');?>/library/images/revista/banner-suscriptores.jpg" border="0"/>
+                <a href="http://ecomania.mercadoshops.com.ar/" target="_blank"><img src="<?php bloginfo('template_directory');?>/library/images/revista/banner-suscriptores.jpg" border="0"/></a>
             </div>
         </li>
 
         <li id="adds" class="widget-container ads">
-            <img src="<?php bloginfo('template_directory');?>/library/images/ads/viapostal.gif" border="0" class="ad"/>
+            <a href="http://www.viapostal.com.ar/" target="_blank"><img src="<?php bloginfo('template_directory');?>/library/images/ads/viapostal.gif" border="0" class="ad"/></a>
             <img src="<?php bloginfo('template_directory');?>/library/images/add-placeholder.jpg" border="0" class="ad" style="float: right"/>
             <img src="<?php bloginfo('template_directory');?>/library/images/add-placeholder.jpg" border="0" class="ad" style="margin-top: 20px"/>
             <img src="<?php bloginfo('template_directory');?>/library/images/add-placeholder.jpg" border="0" class="ad" style="float: right; margin-top: 20px"/>
@@ -131,9 +131,9 @@
     //    See http://nivo.dev7studios.com/support/jquery-plugin-usage/
     $(window).load(function() {
         $('#slider').nivoSlider({
-            pauseTime: 5000,
+            pauseTime: 3000,
             directionNav: false,
-            controlNav: false
+            controlNav: true
         });
     });
 </script>
