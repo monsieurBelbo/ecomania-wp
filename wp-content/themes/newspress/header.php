@@ -31,10 +31,12 @@
     <?php if(get_option("newspress_colorscheme") <> "" && get_option("newspress_colorscheme") <> "default") : $skin = get_option("newspress_colorscheme"); ?>
     <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'template_directory' ); ?>/library/color-scheme/<?php echo $skin; ?>/style-<?php echo $skin; ?>.css" />
     <?php endif; ?>
+    <link rel="stylesheet" type="text/css" media="screen" href="<?php bloginfo( 'template_directory' ); ?>/library/css/nivo-slider.css"/>
     <!--[if IE]>
     <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'template_directory' ); ?>/style-ie.css" />
     <![endif]-->
     <script type="text/javascript" src="<?php bloginfo( 'template_directory' ); ?>/library/scripts/jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="<?php bloginfo( 'template_directory' ); ?>/library/scripts/jquery.nivo.slider.pack.js"></script>
     <?php
     /* Adding custom css file for customization if enabled
       * in theme option.

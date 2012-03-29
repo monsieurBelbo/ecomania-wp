@@ -12,7 +12,11 @@
 
 
         <li id="ecomania-subsciption" class="widget-container banner-mag">
-            <img src="<?php bloginfo('template_directory');?>/library/images/revista/numero4.jpg" border="0"/>
+            <div id="slider" class="nivoSlider">
+                <img src="<?php bloginfo('template_directory');?>/library/images/revista/numero4.jpg" border="0"/>
+                <img src="<?php bloginfo('template_directory');?>/library/images/revista/banner-encontrar.jpg" border="0"/>
+                <img src="<?php bloginfo('template_directory');?>/library/images/revista/banner-suscriptores.jpg" border="0"/>
+            </div>
         </li>
 
         <li id="adds" class="widget-container ads">
@@ -122,3 +126,14 @@
             <?php endif; // end primary widget area ?>
     </ul>
 </div><!-- #sidebar .widget-area -->
+
+<script type="text/javascript">
+    //    See http://nivo.dev7studios.com/support/jquery-plugin-usage/
+    $(window).load(function() {
+        $('#slider').nivoSlider({
+            pauseTime: 5000,
+            directionNav: false,
+            controlNav: false
+        });
+    });
+</script>
