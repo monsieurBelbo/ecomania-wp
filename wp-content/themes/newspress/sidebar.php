@@ -21,7 +21,7 @@
 
         <li id="adds" class="widget-container ads">
             <a href="http://www.viapostal.com.ar/" target="_blank"><img src="<?php bloginfo('template_directory');?>/library/images/ads/viapostal.gif" border="0" class="ad adA"/></a>
-            <img src="<?php bloginfo('template_directory');?>/library/images/add-placeholder.jpg" border="0" class="ad adB" style="float: right"/>
+            <a href="http://www.facebook.com/TimberArg" target="_blank"><img src="<?php bloginfo('template_directory');?>/library/images/ads/timberland.gif" border="0" class="ad adB" style="float: right"/></a>
             <img src="<?php bloginfo('template_directory');?>/library/images/add-placeholder.jpg" border="0" class="ad adC" style="margin-top: 20px"/>
             <img src="<?php bloginfo('template_directory');?>/library/images/add-placeholder.jpg" border="0" class="ad adD" style="float: right; margin-top: 20px"/>
         </li>
