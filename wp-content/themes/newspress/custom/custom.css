@@ -341,6 +341,10 @@ input.search-input {
     margin-bottom: 40px;
 }
 
+.widget-container.ads img {
+    width: 125px;
+}
+
 .widget-container.widget_twitter {
 }
 

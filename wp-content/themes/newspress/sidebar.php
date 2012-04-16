@@ -13,7 +13,7 @@
 
         <li id="ecomania-subsciption" class="widget-container banner-mag">
             <div id="slider" class="nivoSlider">
-                <img src="<?php bloginfo('template_directory');?>/library/images/revista/numero4.jpg" border="0"/>
+                <img src="<?php bloginfo('template_directory');?>/library/images/revista/numero5.jpg" border="0"/>
                 <a href="http://www.viapostal.com.ar/" target="_blank"><img src="<?php bloginfo('template_directory');?>/library/images/revista/banner-encontrar.jpg" border="0"/></a>
                 <a href="http://ecomania.mercadoshops.com.ar/" target="_blank"><img src="<?php bloginfo('template_directory');?>/library/images/revista/banner-suscriptores.jpg" border="0"/></a>
             </div>
@@ -22,7 +22,7 @@
         <li id="adds" class="widget-container ads">
             <a href="http://www.viapostal.com.ar/" target="_blank"><img src="<?php bloginfo('template_directory');?>/library/images/ads/viapostal.gif" border="0" class="ad adA"/></a>
             <a href="http://www.facebook.com/TimberArg" target="_blank"><img src="<?php bloginfo('template_directory');?>/library/images/ads/timberland.gif" border="0" class="ad adB" style="float: right"/></a>
-            <img src="<?php bloginfo('template_directory');?>/library/images/add-placeholder.jpg" border="0" class="ad adC" style="margin-top: 20px"/>
+            <a href="http://riomasvosbuenosaires.org/" target="_blank"><img src="<?php bloginfo('template_directory');?>/library/images/ads/riomasvos.jpg" border="0" class="ad adC" style="margin-top: 20px"/></a>
             <img src="<?php bloginfo('template_directory');?>/library/images/add-placeholder.jpg" border="0" class="ad adD" style="float: right; margin-top: 20px"/>
         </li>
 
