@@ -17,10 +17,26 @@ get_header(); ?>
 
 <?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
 
+                <div id="fb-root"></div>
+                <script>(function(d, s, id) {
+                  var js, fjs = d.getElementsByTagName(s)[0];
+                  if (d.getElementById(id)) return;
+                  js = d.createElement(s); js.id = id;
+                  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+                  fjs.parentNode.insertBefore(js, fjs);
+                }(document, 'script', 'facebook-jssdk'));</script>
+
 				<div id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 					<h2 class="entry-title"><a href="<?php the_permalink(); ?>" title="<?php printf( esc_attr__( 'Permalink to %s', 'newspress' ), the_title_attribute( 'echo=0' ) ); ?>" rel="bookmark"><?php the_title(); ?></a></h2><!-- .entry-title -->
             
-					<div class="entry-meta clearfix"><?php newspress_post_meta(); ?></div><!-- .entry-meta -->
+					<div class="entry-meta clearfix">
+					    <?php newspress_post_meta(); ?>
+					    <div class="social_toolbar">
+                            <div class="fb-like" data-href="http://www.ecomania.org.ar" data-send="false" data-layout="button_count" data-width="20" data-show-faces="true"></div>
+                            <a href="https://twitter.com/share" class="twitter-share-button" data-via="ecomaniatweets">Tweet</a>
+                            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+                       </div>
+					</div><!-- .entry-meta -->
 
 					<div class="entry-content">
 						<?php the_content(); ?>

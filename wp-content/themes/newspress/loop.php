@@ -153,7 +153,9 @@ $do_split = false;
 
             <h2 class="entry-title"><a href="<?php the_permalink(); ?>" title="<?php printf( esc_attr__( 'Permalink to %s', 'newspress' ), the_title_attribute( 'echo=0' ) ); ?>" rel="bookmark"><?php the_title(); ?></a></h2><!-- .entry-title -->
 
-            <div class="entry-meta clearfix"><?php newspress_post_meta(true); ?></div>
+            <div class="entry-meta clearfix">
+                <?php newspress_post_meta(true); ?>
+            </div>
 
             <?php if ( is_home() || is_archive() || is_search() ) : // Only display excerpts with thumbnail for homepage or frontpage. ?>
             <div class="entry-summary">
