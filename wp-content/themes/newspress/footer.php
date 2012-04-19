@@ -2,13 +2,13 @@
 
     <div id="footer-quienes-somos" class="footer-column">
         <h2><a href="<?php echo get_site_url()?>/acerca-de/" class="no-decoration">¿Quiénes somos?</a></h2>
-        <p>Somos una Asociación Civil Sin Fines de Lucro surgida en 2008 cuya misión es promover un cambio de la comunidad en su relación con el medioambiente a partir de la difusión de los valores: desarrollo sostenible, consumo responsable y responsabilidad conjunta.</p>
+        <p>Somos una ONG nacida en 2008 y dedicada a promover el desarrollo sostenible a través de la difusión de dos valores: el consumo responsable y la responsabilidad conjunta.</p>
         <div class="color-line"></div>
     </div>
 
     <div id="footer-colaborators" class="footer-column">
         <h2><a href="<?php echo get_site_url()?>/staff/" class="no-decoration">¿Querés ser voluntario?</a></h2>
-        <p>Te invitamos a sumarte a nuestra ONG escribiéndonos a <a href="mailto:voluntarios@ecomania.org.ar">voluntarios@ecomania.org.ar</a></p>
+        <p>Si te sentís identificado con nuestros proyectos y querés sumarte a nuestro equipo escribinos a <a href="mailto:voluntarios@ecomania.org.ar">voluntarios@ecomania.org.ar</a>.</p>
         <div class="color-line"></div>
     </div>
 

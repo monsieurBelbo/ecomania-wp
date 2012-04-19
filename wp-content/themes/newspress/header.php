@@ -26,6 +26,7 @@
       */
     newspress_create_metadata();
     ?>
+    <link rel="shortcut icon" type="image/png" href="<?php bloginfo( 'template_directory' ); ?>/library/images/favicon.png">
     <link rel="profile" href="http://gmpg.org/xfn/11" />
     <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
     <?php if(get_option("newspress_colorscheme") <> "" && get_option("newspress_colorscheme") <> "default") : $skin = get_option("newspress_colorscheme"); ?>
@@ -81,7 +82,7 @@
         <div style="float: right;">
             <div class="header-links">
                 <div class="header-link link-trashlove" href="http://trashlove.com/"></div>
-                <div class="header-link link-ecomania" href="http://ecomania.org.ar/"></div>
+                <div class="header-link link-ecomania"></div>
                 <div class="header-link link-greenbondi" href="http://www.kidart.com.ar/greenbondi/"></div>
                 <div class="header-link link-greca" href="http://grecaweb.com/"></div>
             </div>
@@ -166,7 +167,8 @@
 
                 $(".header-link").click(function() {
                     var href = $(this).attr("href");
-                    window.open(href);
+                    if (href != null)
+                        window.open(href);
                 })
             });
             </script>
