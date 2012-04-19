@@ -82,16 +82,17 @@ a.no-decoration:visited, a.no-decoration:link {
 
 #footer #footer-quienes-somos.footer-column .color-line {
     border-bottom: solid #FDB934 5px;
+    margin-top: 50px;
 }
 
 #footer #footer-colaborators.footer-column .color-line {
     border-bottom: solid #01BBBA 5px;
-    margin-top: 89px;
+    margin-top: 67px;
 }
 
 #footer #footer-contact.footer-column .color-line {
     border-bottom: solid #EE1C25 5px;
-    margin-top: 35px;
+    margin-top: 32px;
 }
 
 #footer h2 {
