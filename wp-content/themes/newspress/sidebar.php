@@ -23,7 +23,7 @@
             <a href="http://www.viapostal.com.ar/" target="_blank"><img src="<?php bloginfo('template_directory');?>/library/images/ads/viapostal.gif" border="0" class="ad adA"/></a>
             <a href="https://www.facebook.com/TimberlandArg" target="_blank"><img src="<?php bloginfo('template_directory');?>/library/images/ads/timberland.gif" border="0" class="ad adB" style="float: right"/></a>
             <a href="http://riomasvosbuenosaires.org/" target="_blank"><img src="<?php bloginfo('template_directory');?>/library/images/ads/riomasvos.jpg" border="0" class="ad adC" style="margin-top: 20px"/></a>
-            <img src="<?php bloginfo('template_directory');?>/library/images/add-placeholder.jpg" border="0" class="ad adD" style="float: right; margin-top: 20px"/>
+            <a href="http://www.weleda.com.ar/" target="_blank"><img src="<?php bloginfo('template_directory');?>/library/images/ads/weleda.gif" border="0" class="ad adD" style="float: right; margin-top: 20px"/></a>
         </li>
 
         <li id="twitter-2" class="widget-container">
