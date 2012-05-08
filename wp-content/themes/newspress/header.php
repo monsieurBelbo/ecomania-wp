@@ -129,7 +129,7 @@
             <div class="sectionBox">
                 <div class="sectionBoxInfo" id="tips-verdes">
                     <div class="sectionBoxInfoTitle">
-                        <a href="<?php echo get_site_url()?>/category/tips-verdes/">Tips verdes</a>
+                        <a href="/category/tips-verdes/">Tips verdes</a>
                     </div>
                 </div>
             </div>
@@ -151,7 +151,7 @@
             <div class="sectionBox"  style="float: right; margin-right: 0px">
                 <div class="sectionBoxInfo" id="agenda">
                     <div class="sectionBoxInfoTitle">
-                        <a href="<?php echo get_site_url()?>/agenda/">Agenda</a>
+                        <a href="/agenda/">Agenda</a>
                     </div>
                 </div>
             </div>
