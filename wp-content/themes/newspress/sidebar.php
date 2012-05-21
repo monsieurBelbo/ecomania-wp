@@ -16,6 +16,7 @@
                 <img src="<?php bloginfo('template_directory');?>/library/images/revista/numero5.jpg" border="0"/>
                 <a href="http://www.viapostal.com.ar/" target="_blank"><img src="<?php bloginfo('template_directory');?>/library/images/revista/banner-encontrar.jpg" border="0"/></a>
                 <a href="http://ecomania.mercadoshops.com.ar/" target="_blank"><img src="<?php bloginfo('template_directory');?>/library/images/revista/banner-suscriptores.jpg" border="0"/></a>
+                <a href="http://www.greenfilmfest.com.ar/semillero" target="_blank"><img src="<?php bloginfo('template_directory');?>/library/images/revista/bannerGFF.jpg" border="0"/></a>
             </div>
         </li>
 
