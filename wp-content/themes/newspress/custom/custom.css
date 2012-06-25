@@ -118,7 +118,7 @@ a.no-decoration:visited, a.no-decoration:link {
 }
 
 #friends .friend-link.greendrinksba { width: 104px; background: url("../library/images/amigos/greendrinksba.png"); }
-#friends .friend-link.sustentator { width: 107px; background: url("../library/images/amigos/sustentator.png"); }
+#friends .friend-link.sustentator { width: 78px; background: url("../library/images/amigos/sustentator.png"); }
 #friends .friend-link.directorio-verde { width: 91px; background: url("../library/images/amigos/directorio-verde.png"); }
 #friends .friend-link.grecaweb { width: 104px; background: url("../library/images/amigos/greca.png"); }
 #friends .friend-link.britishcouncil { width: 105px; background: url("../library/images/amigos/britishcouncil.png"); }
@@ -134,7 +134,6 @@ a.no-decoration:visited, a.no-decoration:link {
 #friends .friend-link.tuverde { width: 188px; background: url("../library/images/amigos/tuverde.png"); }
 
 #friends .friend-link.greendrinksba.hover,
-#friends .friend-link.sustentator.hover,
 #friends .friend-link.directorio-verde.hover,
 #friends .friend-link.grecaweb.hover,
 #friends .friend-link.britishcouncil.hover,
@@ -147,8 +146,13 @@ a.no-decoration:visited, a.no-decoration:link {
 #friends .friend-link.inicia.hover,
 #friends .friend-link.vidasilvestre.hover,
 #friends .friend-link.monoblock.hover,
-#friends .friend-link.tuverde.hover
-{ cursor:pointer; background-position: 0px 65px; }
+#friends .friend-link.tuverde.hover {
+    cursor:pointer; background-position: 0px 65px;
+}
+
+#friends .friend-link.sustentator.hover {
+    cursor:pointer; background-position: 0px 66px;
+}
 
 #footer #friends .row1, #footer #friends .row2 {
     height: 64px;
