@@ -364,7 +364,9 @@ input.search-input {
 .widget-container.widget_twitter ul li span.entry-content a,
 #twitter-2 .widget-content ul li a, #twitter-2 .widget-content ul li a:hover,
 .widget-container.widget_archive ul li a, #archives-2 .widget-content ul li a,
-#archives-2 .widget-content ul li a:hover {
+#archives-2 .widget-content ul li a:hover,
+#archives-3 .widget-content ul li a, #archives-3 .widget-content ul li a:hover,
+{
     display: inline;
     background: none;
     padding-left: 0px;
