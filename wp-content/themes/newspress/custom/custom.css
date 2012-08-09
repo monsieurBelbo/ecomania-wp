@@ -361,12 +361,9 @@ input.search-input {
     margin-bottom:5px;
 }
 
-.widget-container.widget_twitter ul li span.entry-content a,
-#twitter-2 .widget-content ul li a, #twitter-2 .widget-content ul li a:hover,
-.widget-container.widget_archive ul li a, #archives-2 .widget-content ul li a,
-#archives-2 .widget-content ul li a:hover,
-#archives-3 .widget-content ul li a, #archives-3 .widget-content ul li a:hover,
-{
+.widget-container.widget_twitter ul li span.entry-content a, #twitter-2 .widget-content ul li a, #twitter-2 .widget-content ul li a:hover,
+.widget-container.widget_archive ul li a, #archives-2 .widget-content ul li a, #archives-2 .widget-content ul li a:hover,
+.widget-container.widget_archive ul li a, #archives-3 .widget-content ul li a, #archives-3 .widget-content ul li a:hover {
     display: inline;
     background: none;
     padding-left: 0px;
@@ -375,11 +372,11 @@ input.search-input {
 
 #archives-2 .widget-content ul li,
 #archives-3 .widget-content ul li {
-   background: url("../library/images/folder_stroke_12x12.png") no-repeat;
+    background: url("../library/images/folder_stroke_12x12.png") no-repeat;
     padding: 2px 8px 1px 8px;
 }
 #archives-2 .widget-content ul li a, #archives-2 .widget-content ul li a:hover,
-#archives-3 .widget-content ul li a, #archives-3 .widget-content ul li a:hover{
+#archives-3 .widget-content ul li a, #archives-3 .widget-content ul li a:hover {
     padding-left: 12px;
 }
 
