@@ -14,10 +14,10 @@
         </li>
 
         <li id="adds" class="widget-container ads">
-            <a href="http://www.viapostal.com.ar/" target="_blank"><img src="<?php bloginfo('template_directory');?>/library/images/ads/viapostal.gif" border="0" class="ad adA"/></a>
-            <a href="https://www.facebook.com/TimberlandArg" target="_blank"><img src="<?php bloginfo('template_directory');?>/library/images/ads/timberland.gif" border="0" class="ad adB" style="float: right"/></a>
-            <a href="http://riomasvosbuenosaires.org/" target="_blank"><img src="<?php bloginfo('template_directory');?>/library/images/ads/riomasvos.jpg" border="0" class="ad adC" style="margin-top: 20px"/></a>
-            <a href="http://www.weleda.com.ar/" target="_blank"><img src="<?php bloginfo('template_directory');?>/library/images/ads/weleda.gif" border="0" class="ad adD" style="float: right; margin-top: 20px"/></a>
+            <a href="http://www.viapostal.com.ar/" target="_blank" onClick="_gaq.push(['_trackEvent', 'Ads', 'Click', 'ViaPostal']);"><img src="<?php bloginfo('template_directory');?>/library/images/ads/viapostal.gif" border="0" class="ad adA"/></a>
+            <a href="https://www.facebook.com/TimberlandArg" target="_blank" onClick="_gaq.push(['_trackEvent', 'Ads', 'Click', 'Timberland']);"><img src="<?php bloginfo('template_directory');?>/library/images/ads/timberland.gif" border="0" class="ad adB" style="float: right"/></a>
+            <a href="http://riomasvosbuenosaires.org/" target="_blank" onClick="_gaq.push(['_trackEvent', 'Ads', 'Click', 'Rio+Vos']);"><img src="<?php bloginfo('template_directory');?>/library/images/ads/riomasvos.jpg" border="0" class="ad adC" style="margin-top: 20px"/></a>
+            <a href="http://www.weleda.com.ar/" target="_blank" onClick="_gaq.push(['_trackEvent', 'Ads', 'Click', 'Weleda']);"><img src="<?php bloginfo('template_directory');?>/library/images/ads/weleda.gif" border="0" class="ad adD" style="float: right; margin-top: 20px"/></a>
         </li>
 
         <li id="twitter-2" class="widget-container">
