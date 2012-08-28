@@ -348,6 +348,7 @@ input.search-input {
 
 .widget-container.ads img {
     width: 125px;
+    margin-bottom: 25px;
 }
 
 .widget-container.widget_twitter {
