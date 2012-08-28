@@ -68,7 +68,7 @@
                 <ul id="tab-nav">
                     <li><a href="#tab-latest">Latest</a></li>
                     <li><a href="#tab-comments">Comments</a></li>
-                    <li><a href="#tab-tags">Tags</a></li>
+                    <li><a href="#tab-tags">Nube de Tags</a></li>
                 </ul>
                 <div id="tab-boxes">
                     <div id="tab-latest" class="widget-content">
@@ -100,7 +100,7 @@
             </li>
 
             <li id="archives" class="widget-container">
-                <h3 class="widget-title"><?php _e( 'Archives', 'newspress' ); ?></h3>
+                <h3 class="widget-title">Historia</h3>
                 <div class="widget-content">
                     <ul>
                         <?php wp_get_archives( 'type=monthly' ); ?>
