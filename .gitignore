@@ -2,7 +2,7 @@
 *.ipr
 *.iws
 *.DS_Store
-wp-content/uploads/
-wp-content/themes/newspress/cache/
+wordpress/wp-content/uploads/
+wordpress/wp-content/themes/newspress/cache/
 backup/
 aws/
