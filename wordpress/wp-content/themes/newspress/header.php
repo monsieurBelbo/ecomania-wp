@@ -77,6 +77,7 @@
     ?>
 </head>
 <body <?php body_class($custom_css); ?>>
+<?php include_once("analyticstracking.php") ?>
 <div id="wrapper" class="hfeed">
     <div id="header">
         <div style="float: right;">
