@@ -19,7 +19,7 @@
 						if(!$item->nivoslider4wp_image_link){ ?>
 						<img src="<?php echo $ns4wp_filesurl.$item->nivoslider4wp_id.'_s.'.$item->nivoslider4wp_type; ?>" alt="<?php echo stripslashes($item->nivoslider4wp_text_headline); ?>" title="<?php echo stripslashes($item->nivoslider4wp_text_headline); ?>"/>
 						<?php } else { ?>
-						<a href="<?php echo $item->nivoslider4wp_image_link;?>"><img src="<?php echo $ns4wp_filesurl.$item->nivoslider4wp_id.'_s.'.$item->nivoslider4wp_type; ?>" alt="<?php echo stripslashes($item->nivoslider4wp_text_headline); ?>" title="<?php echo stripslashes($item->nivoslider4wp_text_headline); ?>"/></a>
+						<a href="<?php echo $item->nivoslider4wp_image_link;?>" onClick="_gaq.push(['_trackEvent', 'Ads', 'Click', '<?php echo $item->nivoslider4wp_text_headline ?>']);"><img src="<?php echo $ns4wp_filesurl.$item->nivoslider4wp_id.'_s.'.$item->nivoslider4wp_type; ?>" alt="<?php echo stripslashes($item->nivoslider4wp_text_headline); ?>" title="<?php echo stripslashes($item->nivoslider4wp_text_headline); ?>"/></a>
 						<?php } ?>
 				<?php endforeach; ?>
 		</div>

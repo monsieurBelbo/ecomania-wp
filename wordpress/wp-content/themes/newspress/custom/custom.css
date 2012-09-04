@@ -577,6 +577,10 @@ input.search-input {
 .nivo-controlNav a.active {
     background-position: 0 -10px;
 }
+
+.nivo-caption {
+	display: none !important;
+}
 /*     End-Nivo Slider     ********************************************************************************************/
 
 /*     Posts     ******************************************************************************************************/
