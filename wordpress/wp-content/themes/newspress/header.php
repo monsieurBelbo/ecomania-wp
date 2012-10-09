@@ -84,7 +84,7 @@
             <div class="header-links">
                 <div class="header-link link-trashlove" href="http://trashlove.com/"></div>
                 <div class="header-link link-ecomania"></div>
-                <div class="header-link link-greenbondi" href="http://www.kidart.com.ar/greenbondi/"></div>
+                <div class="header-link link-greenbondi" href="http://www.greenbondi.com"></div>
                 <div class="header-link link-greca" href="http://grecaweb.com/"></div>
             </div>
             <?php get_search_form(); ?>
