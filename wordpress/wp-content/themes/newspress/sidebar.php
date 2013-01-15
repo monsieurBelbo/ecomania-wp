@@ -10,11 +10,7 @@
 <div id="sidebar" class="widget-area" role="complementary">
     <ul class="xoxo">
         <li id="ecomania-subsciption" class="widget-container banner-mag">
-            <script src="http://bs.serving-sys.com/BurstingPipe/adServer.bs?cn=rsb&c=28&pli=5847822&PluID=0&w=300&h=250&ord=[timestamp]"></script>
-			<noscript>
-				<a href="http://bs.serving-sys.com/BurstingPipe/adServer.bs?cn=brd&FlightID=5847822&Page=&PluID=0&Pos=226" target="_blank"><img src="http://bs.serving-sys.com/BurstingPipe/adServer.bs?cn=bsr&FlightID=5847822&Page=&PluID=0&Pos=226" border=0 width=300 height=250></a>
-			</noscript>
-			<?php if (function_exists('nivoslider4wp_show')) { nivoslider4wp_show(); } ?>
+            <?php if (function_exists('nivoslider4wp_show')) { nivoslider4wp_show(); } ?>
         </li>
 
         <?php
