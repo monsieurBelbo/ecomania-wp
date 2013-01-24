@@ -130,29 +130,29 @@
             <div class="sectionBox">
                 <div class="sectionBoxInfo" id="tips-verdes">
                     <div class="sectionBoxInfoTitle">
-                        <a href="/category/tips-verdes/">Tips verdes</a>
+                        <a href="/category/tips-verdes/">Tips Eco</a>
                     </div>
                 </div>
             </div>
 
             <div class="sectionBox">
-                <div class="sectionBoxInfo" id="mapa-de-reciclado">
+                <div class="sectionBoxInfo" id="directorio-verde">
                     <div class="sectionBoxInfoTitle">
-                        <a href="http://www.dondereciclo.org.ar/" target="_blank">Mapa de reciclado</a>
+                        <a href="/comprasverdes/">Compras Verdes</a>
                     </div>
                 </div>
             </div>
             <div class="sectionBox">
-                <div class="sectionBoxInfo" id="directorio-verde">
+                <div class="sectionBoxInfo" id="agenda">
                     <div class="sectionBoxInfoTitle">
-                        <a href="http://directorio-verde.com/" target="_blank">Directorio verde</a>
+                        <a href="/agenda/">Agenda</a>
                     </div>
                 </div>
             </div>
             <div class="sectionBox"  style="float: right; margin-right: 0px">
-                <div class="sectionBoxInfo" id="agenda">
+                <div class="sectionBoxInfo" id="fest">
                     <div class="sectionBoxInfoTitle">
-                        <a href="/agenda/">Agenda</a>
+                        <a href="/fest">Fest</a>
                     </div>
                 </div>
             </div>
