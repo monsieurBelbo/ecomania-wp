@@ -272,7 +272,7 @@ function newspress_add_rsslink($ulelement) {
  */
 
 function newspress_add_sociallink($ulelement) {
-    return preg_replace('/class="sf-menu">/', 'class="sf-menu"><li class="social_link twitter"><a href="https://twitter.com/#!/ecomaniatweets" target="_blank">Twitter</a></li><li class="social_link facebook"><a href="http://www.facebook.com/RevistaEcomania" target="_blank">Facebook</a></li><li class="social_link newsletter"><a href="http://eepurl.com/o8xSv" target="_blank">Newsletter</a></li>', $ulelement, 1);
+    return preg_replace('/class="sf-menu">/', 'class="sf-menu"><li class="social_link twitter"><a href="https://twitter.com/#!/ecomaniatweets" target="_blank">Twitter</a></li><li class="social_link facebook"><a href="http://www.facebook.com/RevistaEcomania" target="_blank">Facebook</a></li><li class="social_link newsletter"><a href="http://eepurl.com/xae85" target="_blank">Newsletter</a></li>', $ulelement, 1);
 }
 add_filter('wp_nav_menu','newspress_add_rsslink');
 add_filter('wp_page_menu','newspress_add_sociallink');
