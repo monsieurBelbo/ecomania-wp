@@ -17,12 +17,12 @@ div.cgview ul{
 
 
 div.cgview ul li{font-weight:bold;text-align:center;margin:10px 0 0 10px;
-					-webkit-border-radius: 10px;-moz-border-radius: 10px;border-radius: 10px;
+					-webkit-border-radius: 0px;-moz-border-radius: 0px;border-radius: 0px;
 				}
 div.cgview ul li{
 	display:inline-block;
 	position:relative;
-	border:4px double;
+	border:4px solid;
 	overflow:hidden;
 	
 }
@@ -38,8 +38,8 @@ div.cgview ul li div.cgback{
 div.cgview ul li div.cgtitle p a{font-family:Geneva, Arial, Helvetica, sans-serif;text-decoration:none;}
 
 /* Light Theme */
-div.cgview.light ul li{border-color: #aaa;}
-div.cgview.light ul li:hover{border-color: #ccc;}
+div.cgview.light ul li{border-color: #ddd;}
+div.cgview.light ul li:hover{border-color: #F6F0E0;}
 div.cgview.light ul li div.cgback{background-color:#fff;}
 div.cgview.light ul li div.cgtitle p a{color:#000;}
 
