@@ -14,7 +14,7 @@ $theID =$_GET["ID"];
 //Meta information about the post
 function cg_posted_on() {
 	$theID =$_GET["ID"];
-	printf( __( '<span>Posted on <a href="%1$s" title="%2$s" rel="bookmark"><time class="cg-entry-date" datetime="%3$s" pubdate>%4$s</time></a> by <a href="%5$s" title="%6$s" rel="author">%7$s</a></span>', 'cgview' ),
+	printf( __( '<span>Posted on <a href="%1$s" title="%2$s" rel="bookmark"><time class="cg-entry-date" datetime="%3$s" pubdate>%4$s</time></a></span>', 'cgview' ),
 		esc_url(get_permalink()),
 		esc_attr( get_the_time()),
 		esc_attr( get_the_date('c') ),
@@ -88,12 +88,6 @@ function cg_posted_on() {
                 
                             <div class="cg-entry-meta">
                                 <?php cg_posted_on(); ?>
-                                <?php if ( comments_open() && ! post_password_required() ) : ?>
-                                 | <span class="cg-leave-reply">
-                                <?php comments_popup_link(  __( 'Reply', 'cgview' ), _x( '1 Comment', 'comments number', 'cgview' ), _x( '% Comments', 'comments number', 'cgview' ) ); ?>
-                                </span>
-                            <?php endif; ?>
-                
                             </div><!-- .entry-meta -->
                 
                 
@@ -140,11 +134,6 @@ function cg_posted_on() {
                         <?php endif; // End if $tags_list ?>
                         
                         <?php endif; // End if 'post' == get_post_type() ?>
-            
-                        <?php if ( comments_open() ) : ?>
-                        <span class="cg-sep"> | </span>
-                        <span class="cg-comments-link"><?php comments_popup_link( '<span class="leave-reply">' . __( 'Leave a reply', 'cgview' ) . '</span>', __( '<b>1</b> Reply', 'cgview' ), __( '<b>%</b> Replies', 'cgview' ) ); ?></span>
-                        <?php endif; // End if comments_open() ?>
             
                         <?php edit_post_link( __( 'Edit', 'cgview' ), '<span class="cg-sep"> | </span><span class="cg-edit-link">', '</span>' ); ?>
                     </footer><!-- #cg-entry-meta -->
