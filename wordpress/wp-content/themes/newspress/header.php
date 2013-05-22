@@ -138,7 +138,7 @@
             <div class="sectionBox">
                 <div class="sectionBoxInfo" id="directorio-verde">
                     <div class="sectionBoxInfoTitle">
-                        <a href="/comprasverdes/">Compras Verdes</a>
+                        <a href="/compras-verdes/">Compras Verdes</a>
                     </div>
                 </div>
             </div>
