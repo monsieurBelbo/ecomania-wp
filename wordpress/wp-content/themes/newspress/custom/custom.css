@@ -81,17 +81,17 @@ a.no-decoration:visited, a.no-decoration:link {
 }
 
 #footer #footer-quienes-somos.footer-column .color-line {
-    border-bottom: solid #F36F5D 5px;
+    border-bottom: solid #a9dddc 5px;
     margin-top: 50px;
 }
 
 #footer #footer-colaborators.footer-column .color-line {
-    border-bottom: solid #19B584 5px;
+    border-bottom: solid #f47a58 5px;
     margin-top: 67px;
 }
 
 #footer #footer-contact.footer-column .color-line {
-    border-bottom: solid #FDD67A 5px;
+    border-bottom: solid #6b2c77 5px;
     margin-top: 32px;
 }
 
@@ -329,7 +329,7 @@ input.search-input {
     vertical-align: baseline;
 }
 
-#tips-verdes.sectionBoxInfo {background: url('../library/images/section_tips_verdes.jpg');}
+#tips-verdes.sectionBoxInfo {background: url('../library/images/section_colabora.jpg');}
 #directorio-verde.sectionBoxInfo {background: url('../library/images/section_directorio_verde.jpg');}
 #agenda.sectionBoxInfo {background: url('../library/images/section_agenda.jpg');}
 #fest.sectionBoxInfo {background: url('../library/images/section_fest.jpg');}
@@ -344,10 +344,11 @@ input.search-input {
 .widget-container, .widget-container.ads, .widget-container.banner-mag {
     border: none;
     margin-bottom: 40px;
+    width: 300px;
 }
 
 .widget-container.ads img {
-    width: 125px;
+    width: 125px; height: 125px;
     margin-bottom: 25px;
 }
 
@@ -445,14 +446,14 @@ input.search-input {
 }
 
 #twitter-2 h3.widget-title {
-    background: url('../library/images/twitter_icon_white_64.png') #F36F5D;
+    background: url('../library/images/twitter_icon_white_64.png') #A9DDDC;/* #F36F5D;*/
     background-repeat: no-repeat;
     background-size: 32px;
     background-position: 10px;
 }
 
 #tag_cloud-2 h3.widget-title {
-    background: url("../library/images/tag_fill_32x32.png") #19B584;
+    background: url("../library/images/tag_fill_32x32.png") #F47A58; /* #19B584;*/
     background-repeat: no-repeat;
     background-size: 24px;
     background-position: 17px;
@@ -460,7 +461,7 @@ input.search-input {
 
 #archives-2 h3.widget-title,
 #archives-3 h3.widget-title {
-    background: url("../library/images/folder_fill_32x32.png") #FDD67A;
+    background: url("../library/images/folder_fill_32x32.png") #6B2C77; /*#FDD67A;*/
     background-repeat: no-repeat;
     background-size: 24px;
     background-position: 17px;

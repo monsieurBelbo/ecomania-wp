@@ -75,6 +75,11 @@
         $custom_css = 'custom';
     } else {$custom_css = '';}
     ?>
+<script type="text/javascript">
+	// added to avoid issues with missing variable.
+        var paginateVal = new Object();
+</script>
+
 </head>
 <body <?php body_class($custom_css); ?>>
 <?php include_once("analyticstracking.php") ?>
@@ -105,7 +110,7 @@
                 <a href="mailto:<?php bloginfo('admin_email'); ?>" title="Advertise Here"><img src="<?php bloginfo('template_directory'); ?>/library/images/ads-top.jpg" border="0" /></a>
                 <?php endif; ?>
             </div><!-- #top ads -->
-            <?php endif; ?>
+            <?php endif; ?> 
 
             <div id="access" class="access clearfix" role="navigation">
                 <?php /*  Allow screen readers / text browsers to skip the navigation menu and get right to the good stuff */ ?>
@@ -130,7 +135,7 @@
             <div class="sectionBox">
                 <div class="sectionBoxInfo" id="tips-verdes">
                     <div class="sectionBoxInfoTitle">
-                        <a href="/category/tips-verdes/">Tips Eco</a>
+                        <a href="/colabora/">Colaborá</a>
                     </div>
                 </div>
             </div>
